@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fredy J Yanes – Graphic Designer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav id="main-nav">
+      <div class="nav-container">
+        <a href="#home" id="logo-btn" class="logo-brand" aria-label="Fredy J Yanes home">
+          <img src="images/logo.png" alt="Fredy J Yanes logo">
+          <span>Fredy Yanes</span>
+        </a>
+        <div class="desktop-nav">
+          <button data-section="home" class="nav-link active">Home</button>
+          <button data-section="about" class="nav-link">About</button>
+          <button data-section="projects" class="nav-link">Projects</button>
+          <button data-section="contact" class="nav-link">Contact</button>
+        </div>
+        <div class="nav-icons">
+          <a href="https://www.linkedin.com/in/fredyyanes/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+        </div>
+        <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Toggle menu">
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </button>
+      </div>
+      <div id="mobile-menu" class="mobile-menu hidden">
+        <button data-section="home" class="mobile-link">Home</button>
+        <button data-section="about" class="mobile-link">About</button>
+        <button data-section="projects" class="mobile-link">Projects</button>
+        <button data-section="contact" class="mobile-link">Contact</button>
+      </div>
+    </nav>
+
+    <div class="sticky-controls" aria-label="Display settings">
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to light mode" aria-pressed="false">
+        <span class="theme-icon theme-icon-sun" aria-hidden="true">☀</span>
+        <span class="theme-icon theme-icon-moon" aria-hidden="true">☾</span>
+      </button>
+      <button id="language-toggle" class="language-toggle" type="button" aria-label="Cambiar a español" aria-pressed="false">
+        <span class="lang-option lang-en">EN</span>
+        <span class="lang-option lang-es">ES</span>
+      </button>
+    </div>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section id="home" class="hero-section">
+      <div class="hero-container">
+        <div class="hero-text stagger">
+          <p class="hero-greeting ">HI, I'M FREDY J YANES</p>
+          <h1 class="hero-title ">GRAPHIC<br>DESIGNER</h1>
+          <p class="hero-subtitle ">Intentional and strategic by nature, I am an Interactive Graphic Designer who blends the craftsmanship of high-pressure culinary leadership with UI/UX design, web design, and visual communication to create refined menus, promotions, branding, and websites for the hospitality industry , work that's as functional as it is tasteful.</p>
+          <div class="hero-buttons ">
+            <button class="btn-primary" data-section="projects">See My Work <span class="arrow">→</span></button>
+            <button class="btn-secondary" data-section="contact">Get in Touch</button>
+          </div>
+        </div>
+
+        <div class="hero-image-wrapper">
+          <div class="hero-image-frame">
+            <img src="https://i.pinimg.com/736x/87/98/06/879806fc557020dca21ae20b62e42371.jpg" alt="Fredy Yanes portrait" class="hero-image parallax-hero">
+          </div>
+          <div class="hero-deco deco-1"></div>
+          <div class="hero-deco deco-2"></div>
+        </div>
+      </div>
+      <div class="scroll-cue">
+        <span>scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section id="about" class="about-section">
+      <div class="about-bg-layer layer-1" aria-hidden="true"></div>
+      <div class="about-bg-layer layer-2" aria-hidden="true"></div>
+
+      <div class="container about-inner">
+        <div class="about-left">
+          <h2 class="section-title about-title">About<br><em>me.</em></h2>
+          <p class="about-text">I built my career in professional kitchens — working my way from entry-level roles to Chef de Cuisine across high-volume and fine dining environments. Precision, consistency, and execution under pressure weren't soft skills. They were survival.<br><br>The pivot to design was intentional, not accidental. After years in leadership I wanted a creative challenge that matched my standards. Graphic & Interactive Design at Valencia College gave me that — and it turns out a kitchen and a design system aren't that different. Both run on prep, structure, refinement, and delivery.<br><br>I approach design the same way I approached the kitchen: with discipline, clarity, and a focus on delivering work that performs.</p>
+          <button class="btn-primary about-cta" data-section="contact">Let's Work Together →</button>
+        </div>
+
+        <div class="about-right">
+          <!-- New photo added here -->
+          <div class="about-photo-wrap">
+            <img src="https://i.pinimg.com/736x/60/a0/b9/60a0b9303a64800e0d07b46843311a18.jpg" alt="Fredy Yanes" class="about-photo">
+          </div>
+
+          <div class="skills-block" id="tech-skills-block">
+            <h3 class="skills-heading">
+              <span class="skills-label">What I Work With</span>
+            </h3>
+            <div class="skills-cloud" id="tech-cloud">
+              <span class="tag tag--lg" style="--d:0">Brand Identity</span>
+              <span class="tag tag--md" style="--d:1">Typography</span>
+              <span class="tag tag--sm" style="--d:2">Print Design</span>
+              <span class="tag tag--md" style="--d:3">Digital Design</span>
+              <span class="tag tag--lg" style="--d:4">UI/UX Design</span>
+              <span class="tag tag--sm" style="--d:5">Illustration</span>
+              <span class="tag tag--accent" style="--d:6">Adobe Illustrator</span>
+              <span class="tag tag--accent" style="--d:7">Adobe Photoshop</span>
+              <span class="tag tag--accent" style="--d:8">Adobe InDesign</span>
+              <span class="tag tag--accent" style="--d:9">Figma</span>
+            </div>
+          </div>
+
+          <div class="skills-divider"></div>
+
+          <div class="skills-block" id="soft-skills-block">
+            <h3 class="skills-heading">
+              <span class="skills-label">What I Bring</span>
+            </h3>
+            <div class="skills-cloud" id="soft-cloud">
+              <span class="tag tag--soft tag--lg" style="--d:0">Systems Thinking</span>
+              <span class="tag tag--soft tag--md" style="--d:1">Execution Under Pressure</span>
+              <span class="tag tag--soft tag--sm" style="--d:2">Precision</span>
+              <span class="tag tag--soft tag--md" style="--d:3">Leadership</span>
+              <span class="tag tag--soft tag--sm" style="--d:4">Process-Driven</span>
+              <span class="tag tag--soft tag--lg" style="--d:5">Adaptability</span>
+              <span class="tag tag--soft tag--md" style="--d:6">Calm in Complexity</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== MORE PROJECTS SLIDER ===== -->
+    <section id="more-projects" class="more-projects-section">
+      <div class="container">
+        <div class="more-header">
+          <h2 class="section-title">Selected Work</h2>
+          <p class="more-subtitle">A range of work across branding, illustration, packaging, and UI — built while learning to think like a designer.</p>
+        </div>
+        <div class="slider-wrapper">
+          <button id="slider-prev" class="slider-arrow prev" aria-label="Scroll left">
+            <svg width="14" height="14" viewBox="0 0 7 12" fill="none"><path d="M6.12425 11.3736L0.874892 6.12425L6.12425 0.874892" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div id="slider" class="slider"></div>
+          <button id="slider-next" class="slider-arrow next" aria-label="Scroll right">
+            <svg width="14" height="14" viewBox="0 0 7 12" fill="none"><path d="M0.874892 11.3736L6.12425 6.12425L0.874892 0.874892" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+        <div id="slider-dots" class="slider-dots"></div>
+      </div>
+    </section>
+
+    <!-- ===== FEATURED PROJECT ===== -->
+    <section id="projects" class="featured-section">
+      <div class="container">
+        <div class="featured-header">
+          <h2 class="section-title">Featured Case Study</h2>
+          <p class="featured-subtitle">One project fully documented from problem to solution.</p>
+        </div>
+        <div class="featured-card">
+          <div class="featured-image">
+            <img src="https://cdn.myportfolio.com/3b674604-b9ac-4701-bc24-d881b2abd8fb/c2b02629-40fe-4a4d-b185-cddba0625d0e_rw_1920.jpg?h=7a38bbbe6a01d509242cad57711c9619" alt="Belfast Discount Beds redesign" class="featured-img">
+          </div>
+          <div class="featured-info">
+            <span class="badge">Web Design · Advanced Web Design · Valencia College</span>
+            <h3 class="project-title">Belfast Discount Beds<br>E-commerce Redesign</h3>
+            <p class="project-desc">A struggling local furniture retailer with an outdated, trust-eroding website. Seven documented user pain points. Ten weeks.<br><br>I led the full process — research, IA, Figma mockups, usability testing, and a coded prototype — to deliver a modern e-commerce experience that makes finding and buying a bed feel as simple as it should be. Peers and instructors specifically noted improvements in layout clarity and navigation structure.</p>
+            <button id="view-project-btn" class="view-project-link">Read the Case Study <span class="external-icon">↗</span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="contact-section">
+      <div class="container contact-content">
+        <h2 class="section-title">Let's Build Something.</h2>
+        <p class="contact-text">I'm actively looking for junior design roles and internships in Orlando and beyond — particularly in agencies, hospitality brands, lifestyle brands, or digital product teams where strong process matters as much as the final deliverable.<br><br>I respond fast and I come prepared.</p>
+        <div class="contact-buttons">
+          <a href="mailto:fredy.yanes@gmail.com" class="btn-primary">fredy.yanes@gmail.com</a>
+          <a href="https://www.linkedin.com/in/fredyyanes/" target="_blank" rel="noopener" class="btn-secondary">LinkedIn ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+      <p>© 2026 Fredy J. Yanes · Graphic & Interactive Design · Valencia College · Orlando, FL</p>
+    </footer>
+  </div>
+
+  <!-- ===== MORE PROJECTS MODAL ===== -->
+  <div id="project-modal" class="modal-overlay hidden">
+    <div class="modal-content">
+      <button id="modal-close" class="modal-close" aria-label="Close modal">✕</button>
+      <img id="modal-image" src="" alt="" class="modal-image">
+      <div class="modal-body">
+        <span id="modal-category" class="badge"></span>
+        <h2 id="modal-title" class="modal-title"></h2>
+        <p id="modal-description" class="modal-desc"></p>
+        <div id="modal-details" class="modal-details"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== PROJECT DETAIL (Case Study) ===== -->
+  <div id="project-detail" class="detail-overlay hidden">
+    <div class="detail-container">
+      <nav id="detail-nav" class="detail-nav">
+        <div class="detail-nav-inner">
+          <button id="detail-back" class="detail-back">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+            Back
+          </button>
+          <div class="detail-nav-links" id="detail-nav-links">
+            <button class="detail-nav-btn active" data-detail-section="overview">Overview</button>
+            <button class="detail-nav-btn" data-detail-section="problem">Problem</button>
+            <button class="detail-nav-btn" data-detail-section="research">Research</button>
+            <button class="detail-nav-btn" data-detail-section="users">Users</button>
+            <button class="detail-nav-btn" data-detail-section="roles">Roles</button>
+            <button class="detail-nav-btn" data-detail-section="scope">Scope</button>
+            <button class="detail-nav-btn" data-detail-section="process">Process</button>
+            <button class="detail-nav-btn" data-detail-section="outcome">Outcome</button>
+          </div>
+          <div class="detail-nav-right">
+            <div class="detail-progress-wrap">
+              <div class="detail-progress-bar" id="detail-progress-bar"></div>
+            </div>
+            <button id="detail-mobile-menu-btn" class="detail-hamburger" aria-label="Toggle menu">
+              <span></span><span></span><span></span>
+            </button>
+          </div>
+        </div>
+        <div id="detail-mobile-menu" class="detail-mobile-menu hidden">
+          <button data-detail-section="overview" class="detail-mobile-link">Overview</button>
+          <button data-detail-section="problem" class="detail-mobile-link">Problem</button>
+          <button data-detail-section="research" class="detail-mobile-link">Research</button>
+          <button data-detail-section="users" class="detail-mobile-link">Users & Audience</button>
+          <button data-detail-section="roles" class="detail-mobile-link">Roles & Responsibilities</button>
+          <button data-detail-section="scope" class="detail-mobile-link">Scope & Constraints</button>
+          <button data-detail-section="process" class="detail-mobile-link">Process & Actions</button>
+          <button data-detail-section="outcome" class="detail-mobile-link">Outcome & Takeaways</button>
+        </div>
+      </nav>
+      <main id="detail-main" class="detail-main"></main>
+      <button id="scroll-top-btn" class="scroll-top-btn hidden" aria-label="Scroll to top">↑</button>
+    </div>
+  </div>
+
+  <!-- ===== LIGHTBOX ===== -->
+  <div id="lightbox" class="lightbox hidden">
+    <button id="lightbox-close" class="lightbox-close" aria-label="Close lightbox">✕</button>
+    <img id="lightbox-img" src="" alt="">
+    <p class="lightbox-hint">Click outside or press ESC to close</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
