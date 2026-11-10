@@ -47,7 +47,6 @@ const enToEs = {
   'Web Design Case Study': 'Caso de Estudio de Diseño Web',
   "Turning a local bed shop's dated website into a modern, mobile-friendly store that answers shoppers' questions before they have to ask.": 'Transformar el sitio anticuado de una tienda local de camas en una tienda moderna, pensada para el móvil, que responde las preguntas de los compradores antes de que tengan que hacerlas.',
   'View the live redesign': 'Ver el rediseño en vivo',
-  'See the code': 'Ver el código',
   'Role': 'Rol',
   'Designer & Developer': 'Diseñador y Desarrollador',
   'Timeline': 'Duración',
