@@ -1845,3 +1845,76 @@ body.light-theme .theme-icon-moon {
     transform: translateX(1.85rem);
   }
 }
+
+/* ============================================================
+   CASE STUDY PAGE (/discount-beds-belfast/)
+   Reuses the detail styles above, but scrolls the whole page
+   instead of an overlay so it has its own shareable URL.
+   ============================================================ */
+body.cs-page {
+  background:
+    radial-gradient(circle at 16% 0%, rgba(253,214,13,0.08), transparent 28rem) no-repeat,
+    #060606;
+}
+body.cs-page.light-theme {
+  background:
+    radial-gradient(circle at 16% 0%, rgba(253,214,13,0.18), transparent 28rem) no-repeat,
+    #f8f3ea;
+}
+.cs-nav { position: sticky; top: 0; z-index: 1000; }
+.cs-page .detail-main { overflow: visible; }
+.cs-page .detail-main section { scroll-margin-top: 52px; }
+.cs-compare .d-card + .d-card { margin-top: 0; }
+.cs-page .detail-nav-btn { display: inline-flex; align-items: center; }
+.cs-page .detail-nav-right { gap: 0.6rem; }
+.cs-toggle { box-shadow: none; }
+.cs-page .detail-mobile-link { display: block; }
+.cs-page .scroll-top-btn { position: fixed; }
+
+.cs-skip {
+  position: absolute; left: 1rem; top: -3rem; z-index: 2000;
+  background: var(--accent); color: #080808; font-weight: 600;
+  padding: 0.5rem 1rem; border-radius: 100px; transition: top 0.2s;
+}
+.cs-skip:focus { top: 0.75rem; }
+
+.cs-browser {
+  margin: 0 0 1.5rem;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.1);
+  background: #141414;
+  box-shadow: 0 30px 60px rgba(0,0,0,0.45);
+}
+.cs-browser-bar { display: flex; gap: 6px; padding: 10px 14px; background: #1b1b1b; border-bottom: 1px solid rgba(255,255,255,0.06); }
+.cs-browser-bar span { width: 10px; height: 10px; border-radius: 50%; background: rgba(255,255,255,0.18); }
+.cs-browser img { width: 100%; cursor: zoom-in; }
+
+.cs-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1rem; }
+.cs-lead { font-size: 1.0625rem !important; margin: -0.75rem 0 1.75rem; max-width: 620px; }
+.cs-subhead { font-size: 1.25rem !important; margin: 2.5rem 0 1rem !important; }
+.cs-compare-label { display: block; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted-faint); margin-bottom: 0.5rem; }
+.cs-compare .detail-list li { color: var(--muted); font-size: 0.9375rem; margin-bottom: 0; }
+
+.cs-phones { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.75rem; margin-top: 0.75rem; }
+.cs-phones img {
+  width: 100%; border-radius: 14px; cursor: zoom-in;
+  border: 1px solid rgba(255,255,255,0.1);
+  background: var(--surface-2, #141414);
+}
+@media (max-width: 600px) {
+  .cs-phones { grid-template-columns: repeat(2, 1fr); }
+  .cs-page .detail-row { flex-direction: column; gap: 0.75rem; }
+}
+.lightbox-trigger:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+body.light-theme .cs-browser { background: #fff; border-color: rgba(22,20,16,0.12); box-shadow: 0 30px 60px rgba(38,31,20,0.18); }
+body.light-theme .cs-browser-bar { background: #efe9de; border-color: rgba(22,20,16,0.08); }
+body.light-theme .cs-browser-bar span { background: rgba(22,20,16,0.2); }
+body.light-theme .cs-phones img { border-color: rgba(22,20,16,0.12); }
+body.light-theme .cs-nav { background: rgba(248,243,234,0.95); border-color: rgba(22,20,16,0.08); }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+.featured-img--left { object-position: left top; }
