@@ -22,25 +22,34 @@ const moreProjects = [
     title: "Cristo Republic Coffee",
     description: "Responsive website for a fictional Salvadoran coffee brand, built for my Interactive Graphic Design classes at Valencia College and refined in 2026 with a front-end shop, a design system pass and a live GitHub Pages launch.",
     category: "Web Design",
-    image: "https://i.pinimg.com/736x/1d/ec/ed/1deced264a429964847ae24e541e3692.jpg",
+    image: "images/cristo/cover-imac-mockup.webp",
     details: {
       overview: "Cristo Republic Coffee is a fictional family coffee brand from the Salvadoran highlands. The six-page site (Home, Shop, Our Coffee, About Us, Blog and a Coffee Club page) tells the brand's story through photography and cultural storytelling, with a shop you can actually click through.",
       role: "UI/UX Designer & Developer – Designed the complete user experience in Figma and Photoshop, then built the site in hand-coded HTML, CSS and JavaScript.",
       tools: ["Figma", "Adobe Photoshop", "HTML/CSS", "JavaScript", "GitHub Pages"],
       challenge: "Create an engaging digital experience that honors Salvadoran coffee traditions while feeling like a real, modern coffee shop online.",
       solution: "Designed an immersive scrolling experience with rich photography, cultural narratives, and a warm earthy color palette inspired by coffee and Salvadoran landscapes.",
+      processTitle: "From Critique to Redesign",
+      stats: [
+        { value: "0 → 12", label: "coffees you can add to a cart" },
+        { value: "3.6 → 6.3:1", label: "button text contrast" },
+        { value: "119 → 5 MB", label: "total photo weight" },
+        { value: "8", label: "revision rounds" }
+      ],
       updates: [
-        { title: "A design system layer", text: "I added one stylesheet that loads after the original class CSS, so the earlier work stays intact. It sets Bebas Neue for page titles and Montserrat for everything else, rose pill buttons with a gold hover, one shared left edge on every page, a mobile menu and a matching set of line icons." },
-        { title: "A shop you can click through", text: "A small JavaScript catalog now drives the shop: 12 products, product pages generated from one template, category filters and price sort, a cart that remembers your picks, and a Coffee Club subscription page. It is a front-end demo for a fictional brand, so there is no real checkout." },
-        { title: "Launched on GitHub Pages", text: "I published the site so it can be viewed live. That meant shrinking photos from as much as 16 MB down to web sizes, replacing product photos that were linked from other sites with local copies, and clearing a stuck deploy queue that had kept the live site on an old version." },
-        { title: "Hero text that reads cleanly", text: "Every page hero now uses the same 600px text column, balanced headline wraps and the same spacing, so titles no longer break awkwardly and \"El Salvador\" always stays on one line." }
+        { title: "Started with an honest critique", text: "I opened the redesign with a full UX/UI review of every page comp and the code. The site looked premium but couldn't sell coffee: no product could be added to a cart, white-on-rose text failed contrast at 3.6:1, photos weighed 3 to 16 MB each, and many links went nowhere. I ranked the problems by impact on sales and kept what was already working: the real photography, a consistent header and footer, and a short nav." },
+        { title: "Made it shoppable", text: "I added a cart that remembers items between pages, one product template that serves all 12 coffees with grind and quantity options, and an Add to Cart button that is always visible instead of hover-only, which phones can't do. The shop gained category filters, a price sort and tasting-note chips, and a new Coffee Club page makes the case for the subscription using only facts from the site, with no invented reviews or terms." },
+        { title: "Built a design system", text: "I cut the type to two faces, Bebas Neue for page titles and Montserrat for everything else, with one size per heading level. Buttons moved to a deeper rose with an espresso-on-gold hover, and both pass WCAG AA. Each page gets one photo-overlay hero, every other section puts the photo beside the text, every page shares one left edge, and one family of thin line icons runs throughout. All of it lives in its own stylesheet, so the original class work stays intact." },
+        { title: "Designed for the phone", text: "Before, the nav links disappeared on small screens. Now a hamburger opens a full-screen menu, hero text sits on a soft shade so the photo stays visible, split sections stack cleanly, and everything was tested at phone, tablet and desktop widths." },
+        { title: "Iterated, and reversed when it mattered", text: "The work ran in eight revision rounds, each one backed up first and tested in the browser after. In one round I replaced the Shop hero photo and put the headline in a frosted box. In the next I brought the original photo back and swapped the box for a side shade, because the text was covering the photography that makes the brand." },
+        { title: "Shipped it", text: "I compressed the published photos from 119 MB to 5 MB and the Our Coffee hero video from 107 MB to 0.9 MB, then launched the site on GitHub Pages. A later polish pass gave every hero the same text column and balanced headlines, so \"El Salvador\" never breaks across two lines." }
       ],
       gallery: [
         { src: "images/cristo/hero-before-desktop.webp", alt: "The six page heroes before the update, with headlines wrapping unevenly", caption: "Before: each hero wrapped its text differently." },
         { src: "images/cristo/hero-after-desktop.webp", alt: "The six page heroes after the update, with one consistent text column", caption: "After: one text column and balanced headlines on every page." },
         { src: "images/cristo/hero-after-phone.webp", alt: "The six page heroes on a phone after the update", caption: "The same heroes on a phone." }
       ],
-      outcome: "A complete, responsive brand site that holds up on phones and desktops and is live for anyone to try.",
+      outcome: "A good-looking brochure became a store people can shop. A first-time visitor now learns what the brand sells, why it's different and how to buy it on the first screen, on any device, and the site is live for anyone to try.",
       link: { href: "https://fredyyanes-hash.github.io/cristo-republic-coffee/", label: "Visit the Live Site" },
     }
   },
@@ -333,20 +342,32 @@ Object.assign(enToEs, {
   'Cristo Republic Coffee is a fictional family coffee brand from the Salvadoran highlands. The six-page site (Home, Shop, Our Coffee, About Us, Blog and a Coffee Club page) tells the brand\'s story through photography and cultural storytelling, with a shop you can actually click through.': 'Cristo Republic Coffee es una marca familiar ficticia de café de las montañas de El Salvador. El sitio de seis páginas (Inicio, Tienda, Nuestro Café, Nosotros, Blog y Coffee Club) cuenta la historia de la marca con fotografía y narrativa cultural, y tiene una tienda que se puede recorrer de verdad.',
   'UI/UX Designer & Developer – Designed the complete user experience in Figma and Photoshop, then built the site in hand-coded HTML, CSS and JavaScript.': 'Diseñador UI/UX y desarrollador: diseñé la experiencia completa en Figma y Photoshop y luego construí el sitio a mano en HTML, CSS y JavaScript.',
   'Create an engaging digital experience that honors Salvadoran coffee traditions while feeling like a real, modern coffee shop online.': 'Crear una experiencia digital atractiva que honre las tradiciones del café salvadoreño y se sienta como una tienda de café moderna y real en línea.',
-  'What I Improved': 'Lo que mejoré',
-  'A design system layer': 'Una capa de sistema de diseño',
-  'I added one stylesheet that loads after the original class CSS, so the earlier work stays intact. It sets Bebas Neue for page titles and Montserrat for everything else, rose pill buttons with a gold hover, one shared left edge on every page, a mobile menu and a matching set of line icons.': 'Agregué una hoja de estilos que se carga después del CSS original de la clase, para que el trabajo anterior quede intacto. Define Bebas Neue para los títulos y Montserrat para todo lo demás, botones redondeados rosados con hover dorado, un mismo margen izquierdo en cada página, un menú móvil y un conjunto coherente de íconos de línea.',
-  'A shop you can click through': 'Una tienda que se puede recorrer',
-  'A small JavaScript catalog now drives the shop: 12 products, product pages generated from one template, category filters and price sort, a cart that remembers your picks, and a Coffee Club subscription page. It is a front-end demo for a fictional brand, so there is no real checkout.': 'Un pequeño catálogo en JavaScript ahora mueve la tienda: 12 productos, páginas de producto generadas desde una sola plantilla, filtros por categoría y orden por precio, un carrito que recuerda tu selección y una página de suscripción al Coffee Club. Es una demo front-end para una marca ficticia, así que no hay pago real.',
-  'Launched on GitHub Pages': 'Publicado en GitHub Pages',
-  'I published the site so it can be viewed live. That meant shrinking photos from as much as 16 MB down to web sizes, replacing product photos that were linked from other sites with local copies, and clearing a stuck deploy queue that had kept the live site on an old version.': 'Publiqué el sitio para que se pueda ver en vivo. Eso implicó reducir fotos de hasta 16 MB a tamaños web, reemplazar fotos de productos enlazadas desde otros sitios por copias locales y destrabar una cola de publicación que había dejado el sitio en una versión vieja.',
-  'Hero text that reads cleanly': 'Textos de portada que se leen mejor',
-  'Every page hero now uses the same 600px text column, balanced headline wraps and the same spacing, so titles no longer break awkwardly and "El Salvador" always stays on one line.': 'Cada portada usa ahora la misma columna de texto de 600px, títulos equilibrados y el mismo espaciado, así que los títulos ya no se cortan de forma extraña y "El Salvador" siempre queda en una sola línea.',
   'Before: each hero wrapped its text differently.': 'Antes: cada portada acomodaba el texto de forma distinta.',
   'After: one text column and balanced headlines on every page.': 'Después: una sola columna de texto y títulos equilibrados en cada página.',
   'The same heroes on a phone.': 'Las mismas portadas en un teléfono.',
-  'A complete, responsive brand site that holds up on phones and desktops and is live for anyone to try.': 'Un sitio de marca completo y responsive que funciona bien en teléfonos y computadoras, y está en línea para que cualquiera lo pruebe.',
   'Visit the Live Site': 'Ver el sitio en vivo'
+});
+
+Object.assign(enToEs, {
+  'From Critique to Redesign': 'De la crítica al rediseño',
+  'The Process': 'El proceso',
+  'coffees you can add to a cart': 'cafés que puedes agregar al carrito',
+  'button text contrast': 'contraste del texto en botones',
+  'total photo weight': 'peso total de las fotos',
+  'revision rounds': 'rondas de revisión',
+  'Started with an honest critique': 'Empecé con una crítica honesta',
+  'I opened the redesign with a full UX/UI review of every page comp and the code. The site looked premium but couldn\'t sell coffee: no product could be added to a cart, white-on-rose text failed contrast at 3.6:1, photos weighed 3 to 16 MB each, and many links went nowhere. I ranked the problems by impact on sales and kept what was already working: the real photography, a consistent header and footer, and a short nav.': 'Comencé el rediseño con una revisión UX/UI completa de cada página y del código. El sitio se veía premium pero no podía vender café: ningún producto se podía agregar al carrito, el texto blanco sobre rosa no pasaba el contraste con 3.6:1, las fotos pesaban de 3 a 16 MB cada una y muchos enlaces no llevaban a ninguna parte. Ordené los problemas según su impacto en las ventas y conservé lo que ya funcionaba: la fotografía real, un encabezado y pie de página consistentes y un menú corto.',
+  'Made it shoppable': 'Lo hice comprable',
+  'I added a cart that remembers items between pages, one product template that serves all 12 coffees with grind and quantity options, and an Add to Cart button that is always visible instead of hover-only, which phones can\'t do. The shop gained category filters, a price sort and tasting-note chips, and a new Coffee Club page makes the case for the subscription using only facts from the site, with no invented reviews or terms.': 'Agregué un carrito que recuerda los productos entre páginas, una sola plantilla de producto para los 12 cafés con opciones de molienda y cantidad, y un botón Agregar al carrito siempre visible en lugar de solo al pasar el cursor, algo que los teléfonos no pueden hacer. La tienda ganó filtros por categoría, orden por precio y etiquetas de notas de sabor, y una nueva página del Coffee Club presenta la suscripción usando solo datos del sitio, sin reseñas ni condiciones inventadas.',
+  'Built a design system': 'Creé un sistema de diseño',
+  'I cut the type to two faces, Bebas Neue for page titles and Montserrat for everything else, with one size per heading level. Buttons moved to a deeper rose with an espresso-on-gold hover, and both pass WCAG AA. Each page gets one photo-overlay hero, every other section puts the photo beside the text, every page shares one left edge, and one family of thin line icons runs throughout. All of it lives in its own stylesheet, so the original class work stays intact.': 'Reduje la tipografía a dos familias, Bebas Neue para los títulos de página y Montserrat para todo lo demás, con un solo tamaño por nivel de encabezado. Los botones pasaron a un rosa más profundo con hover café sobre dorado, y ambos cumplen WCAG AA. Cada página tiene una sola portada con foto de fondo, las demás secciones ponen la foto junto al texto, todas las páginas comparten el mismo margen izquierdo y una sola familia de íconos de línea recorre el sitio. Todo vive en su propia hoja de estilos, así el trabajo original de la clase queda intacto.',
+  'Designed for the phone': 'Diseñado para el teléfono',
+  'Before, the nav links disappeared on small screens. Now a hamburger opens a full-screen menu, hero text sits on a soft shade so the photo stays visible, split sections stack cleanly, and everything was tested at phone, tablet and desktop widths.': 'Antes, los enlaces del menú desaparecían en pantallas pequeñas. Ahora un menú hamburguesa abre un menú a pantalla completa, el texto de la portada descansa sobre una sombra suave para que la foto siga visible, las secciones divididas se apilan bien y todo se probó en teléfono, tableta y computadora.',
+  'Iterated, and reversed when it mattered': 'Iteré, y di marcha atrás cuando importaba',
+  'The work ran in eight revision rounds, each one backed up first and tested in the browser after. In one round I replaced the Shop hero photo and put the headline in a frosted box. In the next I brought the original photo back and swapped the box for a side shade, because the text was covering the photography that makes the brand.': 'El trabajo se hizo en ocho rondas de revisión, cada una respaldada antes y probada en el navegador después. En una ronda cambié la foto de portada de la Tienda y puse el título en una caja esmerilada. En la siguiente recuperé la foto original y cambié la caja por una sombra lateral, porque el texto tapaba la fotografía que define la marca.',
+  'Shipped it': 'Lo publiqué',
+  'I compressed the published photos from 119 MB to 5 MB and the Our Coffee hero video from 107 MB to 0.9 MB, then launched the site on GitHub Pages. A later polish pass gave every hero the same text column and balanced headlines, so "El Salvador" never breaks across two lines.': 'Comprimí las fotos publicadas de 119 MB a 5 MB y el video de portada de Nuestro Café de 107 MB a 0.9 MB, y luego publiqué el sitio en GitHub Pages. Un pulido posterior le dio a cada portada la misma columna de texto y títulos equilibrados, para que "El Salvador" nunca se parta en dos líneas.',
+  'A good-looking brochure became a store people can shop. A first-time visitor now learns what the brand sells, why it\'s different and how to buy it on the first screen, on any device, and the site is live for anyone to try.': 'Un folleto bonito se convirtió en una tienda donde la gente puede comprar. Quien visita por primera vez ahora entiende qué vende la marca, qué la hace distinta y cómo comprar desde la primera pantalla, en cualquier dispositivo, y el sitio está en línea para que cualquiera lo pruebe.'
 });
 
 const esToEn = Object.fromEntries(Object.entries(enToEs).map(([en, es]) => [es, en]));
@@ -579,7 +600,9 @@ function openProjectModal(project) {
   if (d.tools)     html += `<h3>Tools</h3><div class="skills-tags">${d.tools.map(t=>`<span class="tag">${t}</span>`).join('')}</div>`;
   if (d.challenge) html += `<h3>The Challenge</h3><p>${d.challenge}</p>`;
   if (d.solution)  html += `<h3>The Solution</h3><p>${d.solution}</p>`;
-  if (d.updates)   html += `<h3>What I Improved</h3><ul class="modal-updates">${d.updates.map(u=>`<li><h4>${u.title}</h4><p>${u.text}</p></li>`).join('')}</ul>`;
+  if (d.updates)   html += `<h3>${d.processTitle || 'The Process'}</h3>`;
+  if (d.stats)     html += `<div class="modal-stats">${d.stats.map(st=>`<div class="modal-stat"><span class="modal-stat-value">${st.value}</span><span class="modal-stat-label">${st.label}</span></div>`).join('')}</div>`;
+  if (d.updates)   html += `<ul class="modal-updates">${d.updates.map(u=>`<li><h4>${u.title}</h4><p>${u.text}</p></li>`).join('')}</ul>`;
   if (d.gallery)   html += `<div class="modal-gallery">${d.gallery.map(g=>`<figure><img src="${g.src}" alt="${g.alt}" loading="lazy"><figcaption>${g.caption}</figcaption></figure>`).join('')}</div>`;
   if (d.outcome)   html += `<h3>Outcome</h3><p>${d.outcome}</p>`;
   if (d.link)      html += `<a href="${d.link.href}" target="_blank" rel="noopener" class="view-project-link modal-link">${d.link.label} <span class="external-icon" aria-hidden="true">↗</span></a>`;
