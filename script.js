@@ -5,17 +5,40 @@
 // ==================== DATA ====================
 const moreProjects = [
   {
-    title: "Alpha Beta Gamma Campaign",
-    description: "Comprehensive promotional campaign for a romantic comedy film featuring vibrant poster design, social media ads, and billboard campaign.",
-    category: "Branding & Promotional",
-    image: "https://i.pinimg.com/736x/4b/6d/cf/4b6dcfd42e97d14f63bd6beeb485e7b5.jpg",
+    title: "VersaEmerge: Paint It Black",
+    description: "Five-page band website redesigned around the song \"Paint It Black\" by VersaEmerge, built for my Interactive Graphic Design classes at Valencia College and published live on GitHub Pages.",
+    category: "Web Design",
+    image: "images/versaemerge/cover-devices-mockup.webp",
     details: {
-      overview: "A complete integrated marketing campaign for the romantic comedy film \"Alpha Beta Gamma\". The project encompassed multiple deliverables including theatrical posters, social media content, and outdoor advertising to build anticipation and drive ticket sales.",
-      role: "Lead Designer – Responsible for developing the visual identity, creating all promotional materials, and ensuring brand consistency across all touchpoints.",
-      tools: ["Adobe Photoshop", "Adobe Illustrator", "Adobe InDesign"],
-      challenge: "Create a cohesive visual identity that captures the playful yet romantic tone of the film while standing out in a crowded entertainment market.",
-      solution: "Developed a vibrant color palette and dynamic composition style featuring the main characters in engaging scenarios. Used bold typography and energetic layouts to convey the film's comedic nature.",
-      outcome: "The campaign successfully generated buzz across social media platforms and contributed to strong opening weekend attendance.",
+      overview: "I redesigned the VersaEmerge band website around a single song, \"Paint It Black.\" The brief asked for a site that tells the song's story through imagery and is easy to navigate. The finished site has five connected pages (Home, The Story, The Band, Tours and a Merch store) in one gothic visual system: dark forest and corridor photography, red-to-pink gradients and glass panels.",
+      role: "UI/UX Designer & Front-End Developer – I designed the layouts, type and color in Figma, then moved the code into its own GitHub repository and built each page in React and TypeScript.",
+      tools: ["Figma", "Figma Make", "React", "TypeScript", "Tailwind CSS", "Vite", "GitHub Pages"],
+      challenge: "The project started as a two-page prototype that only worked inside the Figma preview. The Story, Band and Merch links did nothing, several buttons were only for show, and some photos weighed up to 4.9 MB. I had to turn a good-looking mockup into a real website a fan could use on any device.",
+      solution: "I kept the visual system the same on every page and designed each new page around what a fan does next: hear the song, meet the band, find a show or buy a shirt. Each page went in as its own reviewed update, and the site publishes itself to GitHub Pages every time I make a change.",
+      processTitle: "From Prototype to Live Site",
+      stats: [
+        { value: "2 → 5", label: "pages live online" },
+        { value: "6 → 17", label: "tour dates in one list" },
+        { value: "0 → 3", label: "products you can add to a cart" },
+        { value: "4.9 MB → 67 KB", label: "band photo size" }
+      ],
+      updates: [
+        { title: "Published the site", text: "I exported the design from Figma to a GitHub repository and set up automatic publishing, so every update goes live on its own and my class can review the real site at any time." },
+        { title: "Told the song's story", text: "The new Story page is built around the \"Paint It Black\" concept and the song's Rolling Stones roots: a forest hero, a Spotify player, a pull quote from the lyric that inspired the site and a paint-drip image frame that ties the visuals to the title. Before, the Story link fell back to the homepage." },
+        { title: "Gave the band a page", text: "I grew the homepage's band section into a full Band page with member profiles, a timeline of nine milestones from 2006 to 2025 and a discography list." },
+        { title: "Redesigned Tours", text: "Six identical ticket cards became a tour hub: a \"Paint It Black World Tour\" hero with a live countdown, 17 dates in one list with status badges, upcoming and past tabs, a region filter, a city search, three VIP packages and an FAQ. Dates and prices are placeholder content." },
+        { title: "Opened a merch store", text: "The homepage's merch button used to do nothing. Now it opens a store with product cards, a quick-view window, a size guide and a working cart. The add-to-cart button shows the running price and asks for a size first, and checkout is labeled \"opens soon\" until a real shop is connected." },
+        { title: "Put the logo on apparel", text: "I placed the new Halo Wings logo on a hoodie and a trucker hat to test it as a product graphic, large across a chest and small on a cap panel. It reads clearly at both sizes, so both mockups became the store's lead products." },
+        { title: "Made it light and mobile", text: "Every new page works on phones. I converted the heaviest photos to WebP: the band photo went from 4.9 MB to 67 KB with no visible loss, and each product photo is 10 to 42 KB." }
+      ],
+      gallery: [
+        { src: "images/versaemerge/phones.webp", alt: "Four phone screens of the VersaEmerge site: the Story, Band, Tours and Merch pages", caption: "On a phone: the Story, Band, Tours and Merch pages." },
+        { src: "images/versaemerge/pages.webp", alt: "Four desktop pages of the VersaEmerge site: The Story, The Band, Tours and the Merch store", caption: "The new pages on desktop: The Story, The Band, Tours and the Merch store." },
+        { src: "images/versaemerge/shop-flow.webp", alt: "Merch store quick-view window for the Halo Wings Hoodie next to the slide-out cart", caption: "The shopping flow: pick a color, size and quantity in quick view, then check the slide-out cart." },
+        { src: "images/versaemerge/logo-apparel.webp", alt: "The Halo Wings logo on a white hoodie and a trucker hat, next to the logo on its own", caption: "The Halo Wings logo on a hoodie and a trucker hat, the store's lead products." }
+      ],
+      outcome: "A two-page prototype became a five-page website anyone can visit. Every navigation link now opens a real page, and a fan can find a show or fill a cart in a few taps. Building it for real taught me to plan for what a visitor does next, how each page works on a phone and how heavy each image is.",
+      link: { href: "https://fredyyanes-hash.github.io/versaemerge/", label: "Visit the Live Site" },
     }
   },
   {
@@ -371,6 +394,39 @@ Object.assign(enToEs, {
   'The design system: five brand colors checked for WCAG contrast, two typefaces, pill buttons and a short set of layout rules.': 'El sistema de diseño: cinco colores de marca verificados con el contraste WCAG, dos tipografías, botones redondeados y un conjunto breve de reglas de diseño.',
   'On a phone: the home page, the full-screen menu and the cart.': 'En el teléfono: la página de inicio, el menú a pantalla completa y el carrito.',
   'The finished site on desktop: Home, Shop, Coffee Club, Our Coffee, About Us and Blog.': 'El sitio terminado en computadora: Inicio, Tienda, Coffee Club, Nuestro Café, Nosotros y Blog.'
+});
+
+Object.assign(enToEs, {
+  'VersaEmerge: Paint It Black': 'VersaEmerge: Paint It Black',
+  'Five-page band website redesigned around the song "Paint It Black" by VersaEmerge, built for my Interactive Graphic Design classes at Valencia College and published live on GitHub Pages.': 'Sitio web de cinco páginas para una banda, rediseñado en torno a la canción "Paint It Black" de VersaEmerge, creado en mis clases de Diseño Gráfico Interactivo en Valencia College y publicado en GitHub Pages.',
+  'I redesigned the VersaEmerge band website around a single song, "Paint It Black." The brief asked for a site that tells the song\'s story through imagery and is easy to navigate. The finished site has five connected pages (Home, The Story, The Band, Tours and a Merch store) in one gothic visual system: dark forest and corridor photography, red-to-pink gradients and glass panels.': 'Rediseñé el sitio web de la banda VersaEmerge en torno a una sola canción, "Paint It Black". El encargo pedía un sitio que contara la historia de la canción a través de imágenes y que fuera fácil de navegar. El sitio terminado tiene cinco páginas conectadas (Inicio, La Historia, La Banda, Giras y una tienda de Merch) con un solo sistema visual gótico: fotografía de bosques y pasillos oscuros, degradados de rojo a rosa y paneles de vidrio.',
+  'UI/UX Designer & Front-End Developer – I designed the layouts, type and color in Figma, then moved the code into its own GitHub repository and built each page in React and TypeScript.': 'Diseñador UI/UX y desarrollador front-end: diseñé las composiciones, la tipografía y el color en Figma, luego pasé el código a su propio repositorio de GitHub y construí cada página en React y TypeScript.',
+  'The project started as a two-page prototype that only worked inside the Figma preview. The Story, Band and Merch links did nothing, several buttons were only for show, and some photos weighed up to 4.9 MB. I had to turn a good-looking mockup into a real website a fan could use on any device.': 'El proyecto empezó como un prototipo de dos páginas que solo funcionaba dentro de la vista previa de Figma. Los enlaces de Story, Band y Merch no hacían nada, varios botones eran solo decorativos y algunas fotos pesaban hasta 4.9 MB. Tenía que convertir una maqueta atractiva en un sitio web real que un fan pudiera usar en cualquier dispositivo.',
+  'I kept the visual system the same on every page and designed each new page around what a fan does next: hear the song, meet the band, find a show or buy a shirt. Each page went in as its own reviewed update, and the site publishes itself to GitHub Pages every time I make a change.': 'Mantuve el mismo sistema visual en todas las páginas y diseñé cada página nueva en torno a lo siguiente que hace un fan: escuchar la canción, conocer a la banda, encontrar un concierto o comprar una camiseta. Cada página entró como una actualización revisada por separado, y el sitio se publica solo en GitHub Pages cada vez que hago un cambio.',
+  'From Prototype to Live Site': 'Del prototipo al sitio en vivo',
+  'pages live online': 'páginas publicadas en línea',
+  'tour dates in one list': 'fechas de gira en una sola lista',
+  'products you can add to a cart': 'productos que puedes agregar al carrito',
+  'band photo size': 'peso de la foto de la banda',
+  'Published the site': 'Publiqué el sitio',
+  'I exported the design from Figma to a GitHub repository and set up automatic publishing, so every update goes live on its own and my class can review the real site at any time.': 'Exporté el diseño de Figma a un repositorio de GitHub y configuré la publicación automática, así cada actualización sale en vivo por sí sola y mi clase puede revisar el sitio real en cualquier momento.',
+  'Told the song\'s story': 'Conté la historia de la canción',
+  'The new Story page is built around the "Paint It Black" concept and the song\'s Rolling Stones roots: a forest hero, a Spotify player, a pull quote from the lyric that inspired the site and a paint-drip image frame that ties the visuals to the title. Before, the Story link fell back to the homepage.': 'La nueva página Story gira en torno al concepto de "Paint It Black" y a las raíces de la canción en los Rolling Stones: un encabezado con un bosque, un reproductor de Spotify, una cita destacada de la letra que inspiró el sitio y un marco de pintura que gotea y conecta las imágenes con el título. Antes, el enlace de Story regresaba a la página de inicio.',
+  'Gave the band a page': 'Le di una página a la banda',
+  'I grew the homepage\'s band section into a full Band page with member profiles, a timeline of nine milestones from 2006 to 2025 and a discography list.': 'Convertí la sección de la banda de la página de inicio en una página completa con perfiles de los integrantes, una línea de tiempo de nueve momentos clave de 2006 a 2025 y una discografía.',
+  'Redesigned Tours': 'Rediseñé la página de giras',
+  'Six identical ticket cards became a tour hub: a "Paint It Black World Tour" hero with a live countdown, 17 dates in one list with status badges, upcoming and past tabs, a region filter, a city search, three VIP packages and an FAQ. Dates and prices are placeholder content.': 'Seis tarjetas de boletos idénticas se convirtieron en un centro de giras: un encabezado de la "Paint It Black World Tour" con cuenta regresiva en vivo, 17 fechas en una sola lista con etiquetas de estado, pestañas de próximos y pasados, un filtro por región, una búsqueda por ciudad, tres paquetes VIP y preguntas frecuentes. Las fechas y los precios son contenido de muestra.',
+  'Opened a merch store': 'Abrí una tienda de merch',
+  'The homepage\'s merch button used to do nothing. Now it opens a store with product cards, a quick-view window, a size guide and a working cart. The add-to-cart button shows the running price and asks for a size first, and checkout is labeled "opens soon" until a real shop is connected.': 'El botón de merch de la página de inicio antes no hacía nada. Ahora abre una tienda con tarjetas de producto, una ventana de vista rápida, una guía de tallas y un carrito que funciona. El botón de agregar al carrito muestra el precio total y pide primero una talla, y el pago dice "abre pronto" hasta que se conecte una tienda real.',
+  'Put the logo on apparel': 'Llevé el logo a la ropa',
+  'I placed the new Halo Wings logo on a hoodie and a trucker hat to test it as a product graphic, large across a chest and small on a cap panel. It reads clearly at both sizes, so both mockups became the store\'s lead products.': 'Coloqué el nuevo logo Halo Wings en una sudadera y una gorra trucker para probarlo como gráfico de producto, grande en el pecho y pequeño en el frente de la gorra. Se lee con claridad en ambos tamaños, así que las dos maquetas se convirtieron en los productos principales de la tienda.',
+  'Made it light and mobile': 'Lo hice ligero y móvil',
+  'Every new page works on phones. I converted the heaviest photos to WebP: the band photo went from 4.9 MB to 67 KB with no visible loss, and each product photo is 10 to 42 KB.': 'Cada página nueva funciona en el teléfono. Convertí las fotos más pesadas a WebP: la foto de la banda pasó de 4.9 MB a 67 KB sin pérdida visible, y cada foto de producto pesa entre 10 y 42 KB.',
+  'On a phone: the Story, Band, Tours and Merch pages.': 'En el teléfono: las páginas Story, Band, Tours y Merch.',
+  'The new pages on desktop: The Story, The Band, Tours and the Merch store.': 'Las páginas nuevas en computadora: The Story, The Band, Tours y la tienda de Merch.',
+  'The shopping flow: pick a color, size and quantity in quick view, then check the slide-out cart.': 'El flujo de compra: eliges color, talla y cantidad en la vista rápida y luego revisas el carrito lateral.',
+  'The Halo Wings logo on a hoodie and a trucker hat, the store\'s lead products.': 'El logo Halo Wings en una sudadera y una gorra trucker, los productos principales de la tienda.',
+  'A two-page prototype became a five-page website anyone can visit. Every navigation link now opens a real page, and a fan can find a show or fill a cart in a few taps. Building it for real taught me to plan for what a visitor does next, how each page works on a phone and how heavy each image is.': 'Un prototipo de dos páginas se convirtió en un sitio web de cinco páginas que cualquiera puede visitar. Cada enlace de navegación ahora abre una página real, y un fan puede encontrar un concierto o llenar un carrito en pocos toques. Construirlo de verdad me enseñó a planear lo siguiente que hace un visitante, cómo funciona cada página en el teléfono y cuánto pesa cada imagen.'
 });
 
 const esToEn = Object.fromEntries(Object.entries(enToEs).map(([en, es]) => [es, en]));
