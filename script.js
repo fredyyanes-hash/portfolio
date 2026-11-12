@@ -20,16 +20,28 @@ const moreProjects = [
   },
   {
     title: "Cristo Republic Coffee",
-    description: "Responsive website promoting Salvadoran coffee culture with e-commerce functionality, educational content, and immersive cultural storytelling.",
+    description: "Responsive website for a fictional Salvadoran coffee brand, built for my Interactive Graphic Design classes at Valencia College and refined in 2026 with a front-end shop, a design system pass and a live GitHub Pages launch.",
     category: "Web Design",
     image: "https://i.pinimg.com/736x/1d/ec/ed/1deced264a429964847ae24e541e3692.jpg",
     details: {
-      overview: "A comprehensive web design project celebrating Salvadoran coffee culture through an immersive digital experience combining e-commerce functionality with rich educational content.",
-      role: "UI/UX Designer & Developer – Designed the complete user experience and implemented the responsive website with e-commerce integration.",
-      tools: ["Figma", "Adobe Photoshop", "HTML/CSS", "JavaScript"],
-      challenge: "Create an engaging digital experience that honors Salvadoran coffee traditions while providing modern e-commerce functionality.",
+      overview: "Cristo Republic Coffee is a fictional family coffee brand from the Salvadoran highlands. The six-page site (Home, Shop, Our Coffee, About Us, Blog and a Coffee Club page) tells the brand's story through photography and cultural storytelling, with a shop you can actually click through.",
+      role: "UI/UX Designer & Developer – Designed the complete user experience in Figma and Photoshop, then built the site in hand-coded HTML, CSS and JavaScript.",
+      tools: ["Figma", "Adobe Photoshop", "HTML/CSS", "JavaScript", "GitHub Pages"],
+      challenge: "Create an engaging digital experience that honors Salvadoran coffee traditions while feeling like a real, modern coffee shop online.",
       solution: "Designed an immersive scrolling experience with rich photography, cultural narratives, and a warm earthy color palette inspired by coffee and Salvadoran landscapes.",
-      outcome: "Delivered a fully functional responsive website that effectively communicates brand values and facilitates online coffee sales.",
+      updates: [
+        { title: "A design system layer", text: "I added one stylesheet that loads after the original class CSS, so the earlier work stays intact. It sets Bebas Neue for page titles and Montserrat for everything else, rose pill buttons with a gold hover, one shared left edge on every page, a mobile menu and a matching set of line icons." },
+        { title: "A shop you can click through", text: "A small JavaScript catalog now drives the shop: 12 products, product pages generated from one template, category filters and price sort, a cart that remembers your picks, and a Coffee Club subscription page. It is a front-end demo for a fictional brand, so there is no real checkout." },
+        { title: "Launched on GitHub Pages", text: "I published the site so it can be viewed live. That meant shrinking photos from as much as 16 MB down to web sizes, replacing product photos that were linked from other sites with local copies, and clearing a stuck deploy queue that had kept the live site on an old version." },
+        { title: "Hero text that reads cleanly", text: "Every page hero now uses the same 600px text column, balanced headline wraps and the same spacing, so titles no longer break awkwardly and \"El Salvador\" always stays on one line." }
+      ],
+      gallery: [
+        { src: "images/cristo/hero-before-desktop.webp", alt: "The six page heroes before the update, with headlines wrapping unevenly", caption: "Before: each hero wrapped its text differently." },
+        { src: "images/cristo/hero-after-desktop.webp", alt: "The six page heroes after the update, with one consistent text column", caption: "After: one text column and balanced headlines on every page." },
+        { src: "images/cristo/hero-after-phone.webp", alt: "The six page heroes on a phone after the update", caption: "The same heroes on a phone." }
+      ],
+      outcome: "A complete, responsive brand site that holds up on phones and desktops and is live for anyone to try.",
+      link: { href: "https://fredyyanes-hash.github.io/cristo-republic-coffee/", label: "Visit the Live Site" },
     }
   },
   {
@@ -274,7 +286,6 @@ const enToEs = {
   'Restaurant Branding': 'Branding de Restaurante',
   'Product Packaging': 'Empaque de Producto',
   'Comprehensive promotional campaign for a romantic comedy film featuring vibrant poster design, social media ads, and billboard campaign.': 'Campaña promocional integral para una comedia romántica con pósters vibrantes, anuncios para redes sociales y vallas publicitarias.',
-  'Responsive website promoting Salvadoran coffee culture with e-commerce functionality, educational content, and immersive cultural storytelling.': 'Sitio responsive que promueve la cultura cafetera salvadoreña con e-commerce, contenido educativo y narrativa cultural inmersiva.',
   'Voter education platform designed to empower citizens with accessible, unbiased information for informed democratic participation.': 'Plataforma de educación electoral diseñada para empoderar a ciudadanos con información accesible e imparcial para participar de forma informada.',
   'A thrilling fusion of graphic design and cinematic inspiration, capturing the intense blood rave scene from the iconic BLADE movie.': 'Una fusión intensa de diseño gráfico e inspiración cinematográfica que captura la famosa escena del blood rave de BLADE.',
   'Vibrant poster design capturing the nostalgic essence of 1980s aesthetics with neon colors, geometric patterns, and retro-futuristic elements.': 'Póster vibrante que captura la nostalgia de los años 80 con colores neón, patrones geométricos y elementos retrofuturistas.',
@@ -297,11 +308,7 @@ Object.assign(enToEs, {
   'Create a cohesive visual identity that captures the playful yet romantic tone of the film while standing out in a crowded entertainment market.': 'Crear una identidad visual cohesiva que capture el tono juguetón y romántico de la película mientras destaca en un mercado de entretenimiento saturado.',
   "Developed a vibrant color palette and dynamic composition style featuring the main characters in engaging scenarios. Used bold typography and energetic layouts to convey the film's comedic nature.": 'Desarrollé una paleta vibrante y un estilo de composición dinámico con los personajes principales en escenarios llamativos. Usé tipografía audaz y layouts enérgicos para comunicar el carácter cómico de la película.',
   'The campaign successfully generated buzz across social media platforms and contributed to strong opening weekend attendance.': 'La campaña generó conversación en redes sociales y contribuyó a una asistencia sólida durante el fin de semana de estreno.',
-  'A comprehensive web design project celebrating Salvadoran coffee culture through an immersive digital experience combining e-commerce functionality with rich educational content.': 'Un proyecto integral de diseño web que celebra la cultura cafetera salvadoreña mediante una experiencia digital inmersiva que combina e-commerce con contenido educativo.',
-  'UI/UX Designer & Developer – Designed the complete user experience and implemented the responsive website with e-commerce integration.': 'Diseñador UI/UX y desarrollador: diseñé la experiencia completa e implementé el sitio responsive con integración e-commerce.',
-  'Create an engaging digital experience that honors Salvadoran coffee traditions while providing modern e-commerce functionality.': 'Crear una experiencia digital atractiva que honre las tradiciones del café salvadoreño y ofrezca funcionalidad e-commerce moderna.',
   'Designed an immersive scrolling experience with rich photography, cultural narratives, and a warm earthy color palette inspired by coffee and Salvadoran landscapes.': 'Diseñé una experiencia inmersiva con fotografía rica, narrativa cultural y una paleta cálida inspirada en el café y los paisajes salvadoreños.',
-  'Delivered a fully functional responsive website that effectively communicates brand values and facilitates online coffee sales.': 'Entregué un sitio responsive funcional que comunica los valores de marca y facilita la venta de café en línea.',
   'VoteSource is a civic engagement platform providing voters with accessible, nonpartisan information about candidates, ballot measures, and the voting process.': 'VoteSource es una plataforma de participación cívica que ofrece a los votantes información accesible y no partidista sobre candidatos, propuestas y el proceso electoral.',
   'UX/UI Designer – Conducted user research, developed information architecture, created wireframes and high-fidelity mockups.': 'Diseñador UX/UI: realicé investigación de usuarios, desarrollé la arquitectura de información y creé wireframes y mockups de alta fidelidad.',
   'Design a platform that presents complex political information in an unbiased, easily digestible format for users of varying technical abilities.': 'Diseñar una plataforma que presente información política compleja de forma imparcial y fácil de entender para usuarios con distintos niveles técnicos.',
@@ -319,6 +326,27 @@ Object.assign(enToEs, {
   'Discount Beds Belfast': 'Discount Beds Belfast',
   'A local bed shop with a dated website that was hard to use on phones and gave shoppers little reason to trust it.': 'Una tienda local de camas con un sitio web anticuado, difícil de usar en el teléfono y que daba pocos motivos a los compradores para confiar.',
   'I first redesigned it as a ten-week class project at Valencia College, from research and Figma mockups to a coded prototype. In 2026 I rebuilt it as a complete nine-page responsive site, with a new shop menu, fuller product pages, and delivery, returns and FAQ pages.': 'Primero lo rediseñé como un proyecto de clase de diez semanas en Valencia College, desde la investigación y los mockups en Figma hasta un prototipo codificado. En 2026 lo reconstruí como un sitio responsivo completo de nueve páginas, con un nuevo menú de tienda, páginas de producto más completas y páginas de entregas, devoluciones y preguntas frecuentes.'
+});
+
+Object.assign(enToEs, {
+  'Responsive website for a fictional Salvadoran coffee brand, built for my Interactive Graphic Design classes at Valencia College and refined in 2026 with a front-end shop, a design system pass and a live GitHub Pages launch.': 'Sitio web responsive para una marca ficticia de café salvadoreño, creado en mis clases de Diseño Gráfico Interactivo en Valencia College y mejorado en 2026 con una tienda front-end, un sistema de diseño y su publicación en GitHub Pages.',
+  'Cristo Republic Coffee is a fictional family coffee brand from the Salvadoran highlands. The six-page site (Home, Shop, Our Coffee, About Us, Blog and a Coffee Club page) tells the brand\'s story through photography and cultural storytelling, with a shop you can actually click through.': 'Cristo Republic Coffee es una marca familiar ficticia de café de las montañas de El Salvador. El sitio de seis páginas (Inicio, Tienda, Nuestro Café, Nosotros, Blog y Coffee Club) cuenta la historia de la marca con fotografía y narrativa cultural, y tiene una tienda que se puede recorrer de verdad.',
+  'UI/UX Designer & Developer – Designed the complete user experience in Figma and Photoshop, then built the site in hand-coded HTML, CSS and JavaScript.': 'Diseñador UI/UX y desarrollador: diseñé la experiencia completa en Figma y Photoshop y luego construí el sitio a mano en HTML, CSS y JavaScript.',
+  'Create an engaging digital experience that honors Salvadoran coffee traditions while feeling like a real, modern coffee shop online.': 'Crear una experiencia digital atractiva que honre las tradiciones del café salvadoreño y se sienta como una tienda de café moderna y real en línea.',
+  'What I Improved': 'Lo que mejoré',
+  'A design system layer': 'Una capa de sistema de diseño',
+  'I added one stylesheet that loads after the original class CSS, so the earlier work stays intact. It sets Bebas Neue for page titles and Montserrat for everything else, rose pill buttons with a gold hover, one shared left edge on every page, a mobile menu and a matching set of line icons.': 'Agregué una hoja de estilos que se carga después del CSS original de la clase, para que el trabajo anterior quede intacto. Define Bebas Neue para los títulos y Montserrat para todo lo demás, botones redondeados rosados con hover dorado, un mismo margen izquierdo en cada página, un menú móvil y un conjunto coherente de íconos de línea.',
+  'A shop you can click through': 'Una tienda que se puede recorrer',
+  'A small JavaScript catalog now drives the shop: 12 products, product pages generated from one template, category filters and price sort, a cart that remembers your picks, and a Coffee Club subscription page. It is a front-end demo for a fictional brand, so there is no real checkout.': 'Un pequeño catálogo en JavaScript ahora mueve la tienda: 12 productos, páginas de producto generadas desde una sola plantilla, filtros por categoría y orden por precio, un carrito que recuerda tu selección y una página de suscripción al Coffee Club. Es una demo front-end para una marca ficticia, así que no hay pago real.',
+  'Launched on GitHub Pages': 'Publicado en GitHub Pages',
+  'I published the site so it can be viewed live. That meant shrinking photos from as much as 16 MB down to web sizes, replacing product photos that were linked from other sites with local copies, and clearing a stuck deploy queue that had kept the live site on an old version.': 'Publiqué el sitio para que se pueda ver en vivo. Eso implicó reducir fotos de hasta 16 MB a tamaños web, reemplazar fotos de productos enlazadas desde otros sitios por copias locales y destrabar una cola de publicación que había dejado el sitio en una versión vieja.',
+  'Hero text that reads cleanly': 'Textos de portada que se leen mejor',
+  'Every page hero now uses the same 600px text column, balanced headline wraps and the same spacing, so titles no longer break awkwardly and "El Salvador" always stays on one line.': 'Cada portada usa ahora la misma columna de texto de 600px, títulos equilibrados y el mismo espaciado, así que los títulos ya no se cortan de forma extraña y "El Salvador" siempre queda en una sola línea.',
+  'Before: each hero wrapped its text differently.': 'Antes: cada portada acomodaba el texto de forma distinta.',
+  'After: one text column and balanced headlines on every page.': 'Después: una sola columna de texto y títulos equilibrados en cada página.',
+  'The same heroes on a phone.': 'Las mismas portadas en un teléfono.',
+  'A complete, responsive brand site that holds up on phones and desktops and is live for anyone to try.': 'Un sitio de marca completo y responsive que funciona bien en teléfonos y computadoras, y está en línea para que cualquiera lo pruebe.',
+  'Visit the Live Site': 'Ver el sitio en vivo'
 });
 
 const esToEn = Object.fromEntries(Object.entries(enToEs).map(([en, es]) => [es, en]));
@@ -551,7 +579,10 @@ function openProjectModal(project) {
   if (d.tools)     html += `<h3>Tools</h3><div class="skills-tags">${d.tools.map(t=>`<span class="tag">${t}</span>`).join('')}</div>`;
   if (d.challenge) html += `<h3>The Challenge</h3><p>${d.challenge}</p>`;
   if (d.solution)  html += `<h3>The Solution</h3><p>${d.solution}</p>`;
+  if (d.updates)   html += `<h3>What I Improved</h3><ul class="modal-updates">${d.updates.map(u=>`<li><h4>${u.title}</h4><p>${u.text}</p></li>`).join('')}</ul>`;
+  if (d.gallery)   html += `<div class="modal-gallery">${d.gallery.map(g=>`<figure><img src="${g.src}" alt="${g.alt}" loading="lazy"><figcaption>${g.caption}</figcaption></figure>`).join('')}</div>`;
   if (d.outcome)   html += `<h3>Outcome</h3><p>${d.outcome}</p>`;
+  if (d.link)      html += `<a href="${d.link.href}" target="_blank" rel="noopener" class="view-project-link modal-link">${d.link.label} <span class="external-icon" aria-hidden="true">↗</span></a>`;
   modalDetails.innerHTML = html;
   translateTextNodes(modalOverlay);
 
