@@ -108,7 +108,7 @@ const moreProjects = [
         { src: "images/votesource/target-market.webp", alt: "Target market summary infographic with bars for gender, age, income, marital status, ethnicity and residence, plus interests and a psychographic profile", caption: "The target market summary that shaped the design: who the audience is, what they want and how they browse." }
       ],
       outcome: "VoteSource turns a page of turnout data into a site someone can read on a phone in a few minutes. Every fact comes from a named source, the colors and wording take no side, and the page ends at a form that helps people take the next step. The project taught me to design from the audience out: who they are, how much time they have and what makes them trust the numbers.",
-      link: { href: "https://github.com/fredyyanes-hash/VoteSource", label: "View the Code" },
+      link: { href: "https://fredyyanes-hash.github.io/VoteSource/", label: "Visit the Live Site" },
     }
   },
   {
@@ -472,8 +472,7 @@ Object.assign(enToEs, {
   'On a phone: the hero, the demographic charts and why every vote matters.': 'En el teléfono: la portada, los gráficos demográficos y por qué importa cada voto.',
   'Mockups from my report: the site on a tablet, a phone and a laptop.': 'Mockups de mi informe: el sitio en una tableta, un teléfono y una laptop.',
   'The target market summary that shaped the design: who the audience is, what they want and how they browse.': 'El resumen del mercado objetivo que guió el diseño: quién es el público, qué quiere y cómo navega.',
-  'VoteSource turns a page of turnout data into a site someone can read on a phone in a few minutes. Every fact comes from a named source, the colors and wording take no side, and the page ends at a form that helps people take the next step. The project taught me to design from the audience out: who they are, how much time they have and what makes them trust the numbers.': 'VoteSource convierte una página de datos de participación en un sitio que alguien puede leer en el teléfono en pocos minutos. Cada dato viene de una fuente citada, los colores y las palabras no toman partido, y la página termina en un formulario que ayuda a la gente a dar el siguiente paso. El proyecto me enseñó a diseñar desde el público: quiénes son, cuánto tiempo tienen y qué les hace confiar en los números.',
-  'View the Code': 'Ver el código'
+  'VoteSource turns a page of turnout data into a site someone can read on a phone in a few minutes. Every fact comes from a named source, the colors and wording take no side, and the page ends at a form that helps people take the next step. The project taught me to design from the audience out: who they are, how much time they have and what makes them trust the numbers.': 'VoteSource convierte una página de datos de participación en un sitio que alguien puede leer en el teléfono en pocos minutos. Cada dato viene de una fuente citada, los colores y las palabras no toman partido, y la página termina en un formulario que ayuda a la gente a dar el siguiente paso. El proyecto me enseñó a diseñar desde el público: quiénes son, cuánto tiempo tienen y qué les hace confiar en los números.'
 });
 
 const esToEn = Object.fromEntries(Object.entries(enToEs).map(([en, es]) => [es, en]));
