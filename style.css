@@ -699,6 +699,14 @@ a { color: inherit; text-decoration: none; }
 .modal-details { color: rgba(248,247,249,0.65); }
 .modal-details h3 { font-size: 1rem; font-weight: 600; margin: 1.25rem 0 0.4rem; color: #f8f7f9; }
 .modal-details p { font-size: 0.9375rem; line-height: 1.65; }
+.modal-updates { list-style: none; padding: 0; margin: 0.5rem 0 0; display: grid; gap: 1rem; }
+.modal-updates li { padding-left: 1rem; border-left: 2px solid #FDD60D; }
+.modal-details .modal-updates h4 { font-size: 0.9375rem; font-weight: 600; margin: 0 0 0.25rem; color: #f8f7f9; }
+.modal-gallery { display: grid; gap: 1.25rem; margin: 1.5rem 0 0.5rem; }
+.modal-gallery figure { margin: 0; }
+.modal-gallery img { width: 100%; height: auto; display: block; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); }
+.modal-gallery figcaption { font-size: 0.8125rem; margin-top: 0.5rem; color: rgba(248,247,249,0.55); }
+.modal-link { margin-top: 1.5rem; }
 
 /* detail overlay ... (keep existing detail styles from previous code, unchanged) */
 /* I'll include them for completeness but they are the same as before */
@@ -1011,6 +1019,7 @@ body.light-theme .lightbox-close:hover {
 }
 
 body.light-theme .modal-details h3,
+body.light-theme .modal-details .modal-updates h4,
 body.light-theme .detail-main h3 {
   color: #161410;
 }
@@ -1918,3 +1927,6 @@ body.light-theme .cs-nav { background: rgba(248,243,234,0.95); border-color: rgb
   html { scroll-behavior: auto; }
 }
 .featured-img--left { object-position: left top; }
+
+body.light-theme .modal-gallery img { border-color: rgba(22,20,16,0.12); }
+body.light-theme .modal-gallery figcaption { color: rgba(22,20,16,0.6); }
