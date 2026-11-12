@@ -42,12 +42,12 @@ const moreProjects = [
         { title: "Built a design system", text: "I cut the type to two faces, Bebas Neue for page titles and Montserrat for everything else, with one size per heading level. Buttons moved to a deeper rose with an espresso-on-gold hover, and both pass WCAG AA. Each page gets one photo-overlay hero, every other section puts the photo beside the text, every page shares one left edge, and one family of thin line icons runs throughout. All of it lives in its own stylesheet, so the original class work stays intact." },
         { title: "Designed for the phone", text: "Before, the nav links disappeared on small screens. Now a hamburger opens a full-screen menu, hero text sits on a soft shade so the photo stays visible, split sections stack cleanly, and everything was tested at phone, tablet and desktop widths." },
         { title: "Iterated, and reversed when it mattered", text: "The work ran in eight revision rounds, each one backed up first and tested in the browser after. In one round I replaced the Shop hero photo and put the headline in a frosted box. In the next I brought the original photo back and swapped the box for a side shade, because the text was covering the photography that makes the brand." },
-        { title: "Shipped it", text: "I compressed the published photos from 119 MB to 5 MB and the Our Coffee hero video from 107 MB to 0.9 MB, then launched the site on GitHub Pages. A later polish pass gave every hero the same text column and balanced headlines, so \"El Salvador\" never breaks across two lines." }
+        { title: "Shipped it", text: "I compressed the published photos from 119 MB to 5 MB and the Our Coffee hero video from 107 MB to 0.9 MB, then launched the site on GitHub Pages." }
       ],
       gallery: [
-        { src: "images/cristo/hero-before-desktop.webp", alt: "The six page heroes before the update, with headlines wrapping unevenly", caption: "Before: each hero wrapped its text differently." },
-        { src: "images/cristo/hero-after-desktop.webp", alt: "The six page heroes after the update, with one consistent text column", caption: "After: one text column and balanced headlines on every page." },
-        { src: "images/cristo/hero-after-phone.webp", alt: "The six page heroes on a phone after the update", caption: "The same heroes on a phone." }
+        { src: "images/cristo/design-system.webp", alt: "Cristo Republic Coffee design system: color palette with contrast checks, Bebas Neue and Montserrat type, pill buttons and layout rules", caption: "The design system: five brand colors checked for WCAG contrast, two typefaces, pill buttons and a short set of layout rules." },
+        { src: "images/cristo/phone-mockups.webp", alt: "Three phone screens of the site: the home page, the full-screen menu and the shopping cart", caption: "On a phone: the home page, the full-screen menu and the cart." },
+        { src: "images/cristo/hero-after-desktop.webp", alt: "The six pages of the finished site on desktop: Home, Shop, Coffee Club, Our Coffee, About Us and Blog", caption: "The finished site on desktop: Home, Shop, Coffee Club, Our Coffee, About Us and Blog." }
       ],
       outcome: "A good-looking brochure became a store people can shop. A first-time visitor now learns what the brand sells, why it's different and how to buy it on the first screen, on any device, and the site is live for anyone to try.",
       link: { href: "https://fredyyanes-hash.github.io/cristo-republic-coffee/", label: "Visit the Live Site" },
@@ -342,9 +342,6 @@ Object.assign(enToEs, {
   'Cristo Republic Coffee is a fictional family coffee brand from the Salvadoran highlands. The six-page site (Home, Shop, Our Coffee, About Us, Blog and a Coffee Club page) tells the brand\'s story through photography and cultural storytelling, with a shop you can actually click through.': 'Cristo Republic Coffee es una marca familiar ficticia de café de las montañas de El Salvador. El sitio de seis páginas (Inicio, Tienda, Nuestro Café, Nosotros, Blog y Coffee Club) cuenta la historia de la marca con fotografía y narrativa cultural, y tiene una tienda que se puede recorrer de verdad.',
   'UI/UX Designer & Developer – Designed the complete user experience in Figma and Photoshop, then built the site in hand-coded HTML, CSS and JavaScript.': 'Diseñador UI/UX y desarrollador: diseñé la experiencia completa en Figma y Photoshop y luego construí el sitio a mano en HTML, CSS y JavaScript.',
   'Create an engaging digital experience that honors Salvadoran coffee traditions while feeling like a real, modern coffee shop online.': 'Crear una experiencia digital atractiva que honre las tradiciones del café salvadoreño y se sienta como una tienda de café moderna y real en línea.',
-  'Before: each hero wrapped its text differently.': 'Antes: cada portada acomodaba el texto de forma distinta.',
-  'After: one text column and balanced headlines on every page.': 'Después: una sola columna de texto y títulos equilibrados en cada página.',
-  'The same heroes on a phone.': 'Las mismas portadas en un teléfono.',
   'Visit the Live Site': 'Ver el sitio en vivo'
 });
 
@@ -366,8 +363,14 @@ Object.assign(enToEs, {
   'Iterated, and reversed when it mattered': 'Iteré, y di marcha atrás cuando importaba',
   'The work ran in eight revision rounds, each one backed up first and tested in the browser after. In one round I replaced the Shop hero photo and put the headline in a frosted box. In the next I brought the original photo back and swapped the box for a side shade, because the text was covering the photography that makes the brand.': 'El trabajo se hizo en ocho rondas de revisión, cada una respaldada antes y probada en el navegador después. En una ronda cambié la foto de portada de la Tienda y puse el título en una caja esmerilada. En la siguiente recuperé la foto original y cambié la caja por una sombra lateral, porque el texto tapaba la fotografía que define la marca.',
   'Shipped it': 'Lo publiqué',
-  'I compressed the published photos from 119 MB to 5 MB and the Our Coffee hero video from 107 MB to 0.9 MB, then launched the site on GitHub Pages. A later polish pass gave every hero the same text column and balanced headlines, so "El Salvador" never breaks across two lines.': 'Comprimí las fotos publicadas de 119 MB a 5 MB y el video de portada de Nuestro Café de 107 MB a 0.9 MB, y luego publiqué el sitio en GitHub Pages. Un pulido posterior le dio a cada portada la misma columna de texto y títulos equilibrados, para que "El Salvador" nunca se parta en dos líneas.',
+  'I compressed the published photos from 119 MB to 5 MB and the Our Coffee hero video from 107 MB to 0.9 MB, then launched the site on GitHub Pages.': 'Comprimí las fotos publicadas de 119 MB a 5 MB y el video de portada de Nuestro Café de 107 MB a 0.9 MB, y luego publiqué el sitio en GitHub Pages.',
   'A good-looking brochure became a store people can shop. A first-time visitor now learns what the brand sells, why it\'s different and how to buy it on the first screen, on any device, and the site is live for anyone to try.': 'Un folleto bonito se convirtió en una tienda donde la gente puede comprar. Quien visita por primera vez ahora entiende qué vende la marca, qué la hace distinta y cómo comprar desde la primera pantalla, en cualquier dispositivo, y el sitio está en línea para que cualquiera lo pruebe.'
+});
+
+Object.assign(enToEs, {
+  'The design system: five brand colors checked for WCAG contrast, two typefaces, pill buttons and a short set of layout rules.': 'El sistema de diseño: cinco colores de marca verificados con el contraste WCAG, dos tipografías, botones redondeados y un conjunto breve de reglas de diseño.',
+  'On a phone: the home page, the full-screen menu and the cart.': 'En el teléfono: la página de inicio, el menú a pantalla completa y el carrito.',
+  'The finished site on desktop: Home, Shop, Coffee Club, Our Coffee, About Us and Blog.': 'El sitio terminado en computadora: Inicio, Tienda, Coffee Club, Nuestro Café, Nosotros y Blog.'
 });
 
 const esToEn = Object.fromEntries(Object.entries(enToEs).map(([en, es]) => [es, en]));
