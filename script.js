@@ -12,7 +12,7 @@ const moreProjects = [
     details: {
       overview: "Corazón Cocina Mexicana is a real family-owned restaurant in Orlando. I redesigned its website and refreshed its brand while keeping every piece of real content: the family story, hours, address and all 93 menu items. The finished site has four pages (Home, Lunch, Dinner and Bar menus) built on a new vector logo system, the restaurant's own warm colors and a bold, photo-led layout.",
       role: "Brand Designer & Front-End Developer – I set the project goals, art-directed the new logo and turned it into vector files, designed the layouts and a small design system, and built the site in hand-coded HTML, CSS and JavaScript.",
-      tools: ["HTML", "CSS", "JavaScript", "SVG Vector Tracing", "GitHub Pages"],
+      tools: ["Adobe Photoshop", "Adobe Illustrator", "HTML", "CSS", "JavaScript", "SVG Vector Tracing", "GitHub Pages"],
       challenge: "The original site set thin blue text over busy photos and had no menu preview or ordering path, and the logo was a 484 × 340 px image in colors that didn't fit the food. My first redesign fixed the structure but looked like a template: rounded cards, serif and script type, and Aztec patterns everywhere. My goals were to make it feel high end and authentic without falling into cliché, use fewer images, keep animation light and make it accessible.",
       solution: "I rebuilt every page in plain CSS with no framework. Two typefaces (Oswald for headlines, DM Sans for text), the restaurant's original terracotta, gold, cream and dark brown, flat square cards and menus laid out like a printed menu replaced the template look. The Aztec greca pattern became one small accent line, so the agave and heart logo and real restaurant photos carry the culture.",
       processTitle: "From Template to Brand",
@@ -32,7 +32,7 @@ const moreProjects = [
         { title: "Published it", text: "I moved the site into a GitHub repository and launched it on GitHub Pages, so every update goes live and anyone can see the real site at any time." }
       ],
       gallery: [
-        { src: "images/corazon/devices-mockup.webp", alt: "The Corazón Dinner menu page on a laptop and the Lunch menu page on a phone", caption: "The Dinner menu on a laptop and the Lunch menu on a phone." },
+        { src: "images/corazon/devices-mockup.webp", alt: "The Corazón homepage on a laptop and the Lunch menu page on a phone", caption: "The homepage on a laptop and the Lunch menu on a phone." },
         { src: "images/corazon/design-system.webp", alt: "Corazón mini design system: six brand colors with contrast ratios, Oswald and DM Sans type, buttons, a five-star rating, the greca accent and the logo on a server's and a bartender's apron", caption: "The mini design system: colors, type, buttons and the greca accent, with the brand on a server's and a bartender's apron." },
         { src: "images/corazon/logo-system.webp", alt: "Corazón logo system: stacked and horizontal logos in color, black and white on light and dark backgrounds", caption: "The logo system: stacked and horizontal versions in color, black and white." },
         { src: "images/corazon/phones.webp", alt: "Three phone screens of the Corazón site: the Lunch menu, the Dinner menu and the footer", caption: "On a phone: the Lunch and Dinner menus and the footer." }
@@ -537,7 +537,7 @@ Object.assign(enToEs, {
   'The Lunch and Dinner pages open with a slow, scrolling strip of restaurant photos behind a darker gradient that keeps the headline readable. The motion stops for visitors who ask their device for less motion, and dropping the outside code libraries made the pages lighter.': 'Las páginas de Almuerzo y Cena abren con una franja lenta de fotos del restaurante detrás de un degradado más oscuro que mantiene legible el título. El movimiento se detiene para quienes piden menos movimiento en su dispositivo, y quitar las librerías externas hizo las páginas más ligeras.',
   'Published it': 'Lo publiqué',
   'I moved the site into a GitHub repository and launched it on GitHub Pages, so every update goes live and anyone can see the real site at any time.': 'Pasé el sitio a un repositorio de GitHub y lo lancé en GitHub Pages, así cada actualización se publica sola y cualquiera puede ver el sitio real en cualquier momento.',
-  'The Dinner menu on a laptop and the Lunch menu on a phone.': 'El menú de Cena en una laptop y el menú de Almuerzo en un teléfono.',
+  'The homepage on a laptop and the Lunch menu on a phone.': 'La página de inicio en una laptop y el menú de Almuerzo en un teléfono.',
   'The mini design system: colors, type, buttons and the greca accent, with the brand on a server\'s and a bartender\'s apron.': 'El mini sistema de diseño: colores, tipografía, botones y el acento de grecas, con la marca en el delantal de un mesero y de una bartender.',
   'The logo system: stacked and horizontal versions in color, black and white.': 'El sistema de logo: versiones apiladas y horizontales a color, en negro y en blanco.',
   'On a phone: the Lunch and Dinner menus and the footer.': 'En el teléfono: los menús de Almuerzo y Cena y el pie de página.',
