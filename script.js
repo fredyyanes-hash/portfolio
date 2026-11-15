@@ -12,7 +12,7 @@ const moreProjects = [
     details: {
       overview: "Corazón Cocina Mexicana is a real family-owned restaurant in Orlando. I redesigned its website and refreshed its brand while keeping every piece of real content: the family story, hours, address and all 93 menu items. The finished site has four pages (Home, Lunch, Dinner and Bar menus) built on a new vector logo system, the restaurant's own warm colors and a bold, photo-led layout.",
       role: "Brand Designer & Front-End Developer – I set the project goals, art-directed the new logo and turned it into vector files, designed the layouts and a small design system, and built the site in hand-coded HTML, CSS and JavaScript.",
-      tools: ["HTML", "CSS", "JavaScript", "AI Image Generation", "SVG Vector Tracing", "GitHub Pages"],
+      tools: ["HTML", "CSS", "JavaScript", "SVG Vector Tracing", "GitHub Pages"],
       challenge: "The original site set thin blue text over busy photos and had no menu preview or ordering path, and the logo was a 484 × 340 px image in colors that didn't fit the food. My first redesign fixed the structure but looked like a template: rounded cards, serif and script type, and Aztec patterns everywhere. My goals were to make it feel high end and authentic without falling into cliché, use fewer images, keep animation light and make it accessible.",
       solution: "I rebuilt every page in plain CSS with no framework. Two typefaces (Oswald for headlines, DM Sans for text), the restaurant's original terracotta, gold, cream and dark brown, flat square cards and menus laid out like a printed menu replaced the template look. The Aztec greca pattern became one small accent line, so the agave and heart logo and real restaurant photos carry the culture.",
       processTitle: "From Template to Brand",
@@ -542,7 +542,6 @@ Object.assign(enToEs, {
   'The logo system: stacked and horizontal versions in color, black and white.': 'El sistema de logo: versiones apiladas y horizontales a color, en negro y en blanco.',
   'On a phone: the Lunch and Dinner menus and the footer.': 'En el teléfono: los menús de Almuerzo y Cena y el pie de página.',
   'A dated restaurant site became a branded, four-page website anyone can visit, with a logo system the restaurant can use from a favicon to a storefront sign. The project taught me that a brand depends on small details, and that setting clear goals at the start makes every later decision easier. Next I\'d add online reservations, a Spanish version and a full accessibility audit.': 'Un sitio de restaurante anticuado se convirtió en un sitio web de cuatro páginas con marca propia que cualquiera puede visitar, con un sistema de logo que el restaurante puede usar desde un favicon hasta un letrero de fachada. El proyecto me enseñó que una marca depende de los pequeños detalles, y que fijar objetivos claros al inicio facilita cada decisión posterior. Lo siguiente sería agregar reservaciones en línea, una versión en español y una auditoría completa de accesibilidad.',
-  'AI Image Generation': 'Generación de imágenes con IA',
   'SVG Vector Tracing': 'Vectorización en SVG'
 });
 
