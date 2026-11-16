@@ -150,7 +150,7 @@ const moreProjects = [
   },
   {
     title: "Blade Comic Cover",
-    description: "A thrilling fusion of graphic design and cinematic inspiration, capturing the intense blood rave scene from the iconic BLADE movie.",
+    description: "A comic book cover illustration inspired by the blood rave scene from the movie BLADE.",
     category: "Illustration",
     image: "https://cdn.myportfolio.com/3b674604-b9ac-4701-bc24-d881b2abd8fb/7c65051d-09e1-41f3-a825-d267fa8e69aa.jpg?h=184aca06b6d6981bdb97f17b7e714f00",
     details: {
@@ -159,7 +159,7 @@ const moreProjects = [
       tools: ["Adobe Photoshop", "Adobe Illustrator", "Digital Drawing Tablet"],
       challenge: "Capture the cinematic intensity and atmospheric darkness of the BLADE universe while creating a compelling comic book cover composition.",
       solution: "Dynamic angles and dramatic lighting create depth and movement. Bold red and black color scheme evokes the blood rave while maintaining readability.",
-      outcome: "A striking cover that bridges cinematic and comic book aesthetics with professional production quality.",
+      outcome: "A finished comic cover that carries the look of a film scene into a single printed image. It taught me how much lighting and a limited palette can set the mood of a piece.",
     }
   },
   {
@@ -173,7 +173,7 @@ const moreProjects = [
       tools: ["Adobe Illustrator", "Adobe Photoshop"],
       challenge: "Create an authentic 80s aesthetic that feels nostalgic yet fresh for modern audiences.",
       solution: "Incorporated signature 80s elements: neon gradients, geometric grids, chrome effects, and period-appropriate typography.",
-      outcome: "Print-ready poster that successfully evokes 80s nostalgia while maintaining contemporary appeal.",
+      outcome: "A finished, print-ready poster built from the visual language of the 1980s. It pushed me to study a period style closely before reworking it.",
     }
   },
   {
@@ -187,12 +187,12 @@ const moreProjects = [
       tools: ["Adobe Illustrator", "Adobe Photoshop", "Adobe InDesign"],
       challenge: "Create a brand identity that honors authentic Mexican food culture while appealing to modern urban audiences.",
       solution: "Bold, playful visual identity with vibrant colors inspired by Mexican culture, custom logotype, patterns, and a flexible system across digital and physical touchpoints.",
-      outcome: "Comprehensive brand identity that positions Nacho Daddy's as a modern, vibrant dining destination.",
+      outcome: "A brand identity for a restaurant concept, from the logo to the color palette and collateral. It was practice in building a system that works across a menu, a sign and a screen.",
     }
   },
   {
     title: "Chocochitos Cereal",
-    description: "Delightful cereal box design celebrating Latino heritage with lively pastel shades, playful patterns, and a charming cow mascot.",
+    description: "Cereal box design celebrating Latino heritage with pastel colors, playful patterns and a cow mascot.",
     category: "Packaging Design",
     image: "https://cdn.myportfolio.com/3b674604-b9ac-4701-bc24-d881b2abd8fb/e6572677-8e38-47da-b182-56e5e0adac51.jpg?h=6e937fd89ed7267650d98552e185c8d3",
     details: {
@@ -201,7 +201,7 @@ const moreProjects = [
       tools: ["Adobe Illustrator", "Adobe Photoshop", "Adobe InDesign"],
       challenge: "Create a cereal box that stands out on crowded shelves while authentically representing Latino culture and appealing to both children and parents.",
       solution: "Charming cow mascot surrounded by lively pastel colors and patterns inspired by Latino folk art, with cheerful typography and clear information hierarchy.",
-      outcome: "Distinctive package design that merges cultural celebration with commercial appeal.",
+      outcome: "A finished cereal box design with an original mascot and full front panel. It taught me to balance a playful illustration with the information a package has to carry.",
     }
   },
   {
@@ -215,7 +215,7 @@ const moreProjects = [
       tools: ["Adobe Illustrator", "Adobe Photoshop"],
       challenge: "Reimagine an iconic movie poster that respects the beloved original while bringing something visually striking and new.",
       solution: "Dynamic vector illustrations of key characters and the iconic DeLorean with bold shapes, vibrant colors, and classic movie poster composition.",
-      outcome: "A striking poster that pays homage to the original film while demonstrating strong vector illustration skills.",
+      outcome: "A finished vector poster that reinterprets a well-known film. Drawing the characters and the DeLorean in vector grew my control of shape, line and color in Illustrator.",
     }
   },
   {
@@ -227,9 +227,9 @@ const moreProjects = [
       overview: "Comprehensive brand identity for Carbonella's Restaurant, an upscale Italian dining establishment including logo, menus, signage, and branded collateral.",
       role: "Brand Designer – Complete visual identity including logo, typography system, color palette, menu design, and brand guidelines.",
       tools: ["Adobe Illustrator", "Adobe InDesign", "Adobe Photoshop"],
-      challenge: "Convey Italian culinary tradition and upscale dining while differentiating from competitors in a saturated market.",
+      challenge: "Convey Italian culinary tradition and an upscale dining experience in a way that feels distinct from other Italian restaurants.",
       solution: "Elegant wordmark with refined typography suggesting Italian heritage. Sophisticated palette of deep charcoal and warm accent tones.",
-      outcome: "Comprehensive brand identity that positions Carbonella's as a destination for upscale Italian cuisine.",
+      outcome: "A brand identity for an upscale Italian restaurant concept. It showed me how much a restrained palette and careful typography say about price and tone.",
     }
   },
   {
@@ -243,7 +243,7 @@ const moreProjects = [
       tools: ["Adobe Illustrator", "Adobe Photoshop", "3D Mockup Tools"],
       challenge: "Break through in the competitive energy drink category with packaging that captures attention and communicates energy and performance.",
       solution: "Electrifying graphics with lightning bolt motifs, explosive color combinations, aggressive typography, and dynamic angles.",
-      outcome: "Bold, eye-catching package design that successfully competes for attention in the energy drink category.",
+      outcome: "A finished can design for an energy drink concept. It was practice in making a package read from across a store shelf.",
     }
   }
 ];
@@ -376,10 +376,8 @@ const enToEs = {
   'Restaurant Branding': 'Branding de Restaurante',
   'Product Packaging': 'Empaque de Producto',
   'Comprehensive promotional campaign for a romantic comedy film featuring vibrant poster design, social media ads, and billboard campaign.': 'Campaña promocional integral para una comedia romántica con pósters vibrantes, anuncios para redes sociales y vallas publicitarias.',
-  'A thrilling fusion of graphic design and cinematic inspiration, capturing the intense blood rave scene from the iconic BLADE movie.': 'Una fusión intensa de diseño gráfico e inspiración cinematográfica que captura la famosa escena del blood rave de BLADE.',
   'Vibrant poster design capturing the nostalgic essence of 1980s aesthetics with neon colors, geometric patterns, and retro-futuristic elements.': 'Póster vibrante que captura la nostalgia de los años 80 con colores neón, patrones geométricos y elementos retrofuturistas.',
   'Modern and sleek branding for a vibrant taqueria, capturing the essence of Mexican cuisine with contemporary design elements.': 'Branding moderno y pulido para una taquería vibrante, capturando la esencia de la cocina mexicana con elementos contemporáneos.',
-  'Delightful cereal box design celebrating Latino heritage with lively pastel shades, playful patterns, and a charming cow mascot.': 'Diseño alegre de caja de cereal que celebra la herencia latina con tonos pastel, patrones juguetones y una mascota encantadora.',
   'Iconic movie poster reimagining with bold vector illustration, dynamic composition and retro-futuristic style.': 'Reinterpretación de un póster icónico con ilustración vectorial audaz, composición dinámica y estilo retrofuturista.',
   'Elegant restaurant branding featuring sophisticated typography, refined color palette, and cohesive visual identity for an upscale Italian dining experience.': 'Branding elegante para restaurante con tipografía sofisticada, paleta refinada e identidad visual cohesiva para una experiencia italiana upscale.',
   'Bold energy drink packaging with electrifying graphics, dynamic typography, and vibrant color scheme designed to capture attention.': 'Empaque audaz para bebida energética con gráficos eléctricos, tipografía dinámica y colores vibrantes diseñados para llamar la atención.',
@@ -402,7 +400,6 @@ Object.assign(enToEs, {
   'Illustrator & Designer – Conceptualized and executed the complete cover illustration from initial sketches through final digital artwork.': 'Ilustrador y diseñador: conceptualicé y ejecuté la ilustración completa de la portada desde bocetos iniciales hasta arte digital final.',
   'Capture the cinematic intensity and atmospheric darkness of the BLADE universe while creating a compelling comic book cover composition.': 'Capturar la intensidad cinematográfica y la oscuridad atmosférica del universo BLADE mientras se crea una composición potente de portada de cómic.',
   'Dynamic angles and dramatic lighting create depth and movement. Bold red and black color scheme evokes the blood rave while maintaining readability.': 'Ángulos dinámicos e iluminación dramática crean profundidad y movimiento. La paleta roja y negra evoca el blood rave sin perder legibilidad.',
-  'A striking cover that bridges cinematic and comic book aesthetics with professional production quality.': 'Una portada impactante que conecta estética cinematográfica y de cómic con calidad profesional.',
 });
 
 Object.assign(enToEs, {
@@ -545,6 +542,19 @@ Object.assign(enToEs, {
   'SVG Vector Tracing': 'Vectorización en SVG'
 });
 
+Object.assign(enToEs, {
+  'A comic book cover illustration inspired by the blood rave scene from the movie BLADE.': 'Ilustración de portada de cómic inspirada en la escena del blood rave de la película BLADE.',
+  'Cereal box design celebrating Latino heritage with pastel colors, playful patterns and a cow mascot.': 'Diseño de caja de cereal que celebra la herencia latina con colores pastel, patrones juguetones y una mascota de vaca.',
+  'Convey Italian culinary tradition and an upscale dining experience in a way that feels distinct from other Italian restaurants.': 'Transmitir la tradición culinaria italiana y una experiencia gastronómica de alto nivel de una forma que se distinga de otros restaurantes italianos.',
+  'A finished comic cover that carries the look of a film scene into a single printed image. It taught me how much lighting and a limited palette can set the mood of a piece.': 'Una portada de cómic terminada que lleva el estilo de una escena de cine a una sola imagen impresa. Me enseñó cuánto pueden definir el ambiente de una pieza la iluminación y una paleta limitada.',
+  'A finished, print-ready poster built from the visual language of the 1980s. It pushed me to study a period style closely before reworking it.': 'Un póster terminado y listo para imprimir, construido con el lenguaje visual de los años 80. Me llevó a estudiar a fondo el estilo de una época antes de reinterpretarlo.',
+  'A brand identity for a restaurant concept, from the logo to the color palette and collateral. It was practice in building a system that works across a menu, a sign and a screen.': 'Una identidad de marca para un concepto de restaurante, desde el logo hasta la paleta de colores y las piezas impresas. Fue práctica para crear un sistema que funcione en un menú, un letrero y una pantalla.',
+  'A finished cereal box design with an original mascot and full front panel. It taught me to balance a playful illustration with the information a package has to carry.': 'Un diseño de caja de cereal terminado, con una mascota original y el panel frontal completo. Me enseñó a equilibrar una ilustración divertida con la información que debe llevar un empaque.',
+  'A finished vector poster that reinterprets a well-known film. Drawing the characters and the DeLorean in vector grew my control of shape, line and color in Illustrator.': 'Un póster vectorial terminado que reinterpreta una película conocida. Dibujar los personajes y el DeLorean en vector mejoró mi control de la forma, la línea y el color en Illustrator.',
+  'A brand identity for an upscale Italian restaurant concept. It showed me how much a restrained palette and careful typography say about price and tone.': 'Una identidad de marca para un concepto de restaurante italiano de alto nivel. Me mostró cuánto comunican sobre precio y tono una paleta sobria y una tipografía cuidada.',
+  'A finished can design for an energy drink concept. It was practice in making a package read from across a store shelf.': 'Un diseño de lata terminado para un concepto de bebida energética. Fue práctica para lograr que un empaque se lea desde el otro lado del pasillo de una tienda.'
+});
+
 const esToEn = Object.fromEntries(Object.entries(enToEs).map(([en, es]) => [es, en]));
 currentLanguage = savedLanguage === 'es' ? 'es' : 'en';
 
@@ -611,7 +621,7 @@ languageToggle?.addEventListener('click', () => {
 // ==================== MAIN NAV ====================
 const mainNav = qs('#main-nav');
 const allNavLinks = qsa('[data-section]');
-const mainSections = ['home','about','projects','contact'];
+const mainSections = ['home','about','more-projects','contact'];
 
 function setActiveNav(id) {
   allNavLinks.forEach(l => l.classList.toggle('active', l.dataset.section === id));
