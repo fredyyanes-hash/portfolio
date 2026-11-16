@@ -801,3 +801,24 @@ modalOverlay.addEventListener('click', e => { if (e.target === modalOverlay) clo
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape') closeModal();
 });
+
+// ==================== FEATURED CASE STUDY SCROLL PREVIEW ====================
+// The CSS animation does the scrolling. This only pauses it while the frame is
+// off screen (so it starts from the top when you reach it) and lets touch users
+// tap the frame to pause or resume, since phones have no hover.
+(function initFeaturedScroll() {
+  const frame = document.querySelector('[data-featured-scroll]');
+  if (!frame) return;
+
+  if ('IntersectionObserver' in window) {
+    frame.classList.add('is-offscreen');
+    new IntersectionObserver(entries => {
+      entries.forEach(entry => frame.classList.toggle('is-offscreen', !entry.isIntersecting));
+    }, { threshold: 0.15 }).observe(frame);
+  }
+
+  frame.addEventListener('pointerup', e => {
+    if (e.pointerType === 'mouse') return;
+    frame.classList.toggle('is-paused');
+  });
+})();
