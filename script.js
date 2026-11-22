@@ -273,7 +273,8 @@ const moreProjects = [
         { src: "images/bttf/lobby-standee.webp", alt: "The Back 2 The Future floor standee in a movie theater lobby, with the DeLorean and characters raised off the back panel and a purple base that reads Coming Soon, Summer 2027", caption: "The 8 ft layered floor standee in a theater lobby." },
         { src: "images/bttf/street-poster.webp", alt: "The Back 2 The Future poster on a brick wall under a rail bridge, with bicycles parked on the wet sidewalk below", caption: "The poster on a street wall." },
         { src: "images/bttf/night-billboard.webp", alt: "The Back 2 The Future poster lit up on a roadside billboard at night, with streetlights and passing cars", caption: "The billboard at night." },
-        { src: "images/bttf/sketches.webp", alt: "Pencil sketches for the poster: a page of 15 numbered thumbnails and a page of 5 refined layouts with Marty and the DeLorean", caption: "The 15 thumbnail sketches and the 5 refined layouts that led to the final poster." }
+        { src: "images/bttf/sketches.webp", alt: "Pencil sketches for the poster: a page of 15 numbered thumbnails and a page of 5 refined layouts with Marty and the DeLorean", caption: "The 15 thumbnail sketches and the 5 refined layouts that led to the final poster.", size: "small" },
+        { src: "images/bttf/full-poster.webp", alt: "The full Back 2 The Future poster in a silver Coming Soon display frame: Marty sits on the hood of the DeLorean with Doc and Einstein beside it, under the title and cast names, with the credits and studio logos at the bottom", caption: "The finished poster in a Coming Soon frame.", size: "poster" }
       ],
       outcome: "A 2024 class assignment became a small campaign that shows one illustration working at every size, from a poster to a billboard to an 8 ft standee. Coming back to it two years later showed me how much color alone can change a finished piece, and building the standee made me think of the artwork in layers instead of as one flat image.",
     }
@@ -675,6 +676,7 @@ Object.assign(enToEs, {
   "The 8 ft layered floor standee in a theater lobby.": "El standee de piso de 8 pies, en capas, en el vestíbulo de un cine.",
   "The poster on a street wall.": "El póster en una pared de la calle.",
   "The billboard at night.": "La valla de noche.",
+  "The finished poster in a Coming Soon frame.": "El póster terminado en un marco de Coming Soon.",
   "The 15 thumbnail sketches and the 5 refined layouts that led to the final poster.": "Los 15 bocetos en miniatura y los 5 diseños refinados que llevaron al póster final.",
   "A 2024 class assignment became a small campaign that shows one illustration working at every size, from a poster to a billboard to an 8 ft standee. Coming back to it two years later showed me how much color alone can change a finished piece, and building the standee made me think of the artwork in layers instead of as one flat image.": "Una tarea de clase de 2024 se convirtió en una pequeña campaña que muestra una ilustración funcionando en todos los tamaños, del póster a la valla y a un standee de 8 pies. Volver a ella dos años después me mostró cuánto puede cambiar una pieza terminada solo con el color, y crear el standee me hizo pensar la ilustración en capas en vez de como una imagen plana."
 });
@@ -912,7 +914,7 @@ function openProjectModal(project) {
   if (d.updates)   html += `<h3>${d.processTitle || 'The Process'}</h3>`;
   if (d.stats)     html += `<div class="modal-stats">${d.stats.map(st=>`<div class="modal-stat"><span class="modal-stat-value">${st.value}</span><span class="modal-stat-label">${st.label}</span></div>`).join('')}</div>`;
   if (d.updates)   html += `<ul class="modal-updates">${d.updates.map(u=>`<li><h4>${u.title}</h4><p>${u.text}</p></li>`).join('')}</ul>`;
-  if (d.gallery)   html += `<div class="modal-gallery">${d.gallery.map(g=>`<figure><img src="${g.src}" alt="${g.alt}" loading="lazy"><figcaption>${g.caption}</figcaption></figure>`).join('')}</div>`;
+  if (d.gallery)   html += `<div class="modal-gallery">${d.gallery.map(g=>`<figure${g.size ? ` class="is-${g.size}"` : ''}><img src="${g.src}" alt="${g.alt}" loading="lazy"><figcaption>${g.caption}</figcaption></figure>`).join('')}</div>`;
   if (d.outcome)   html += `<h3>Outcome</h3><p>${d.outcome}</p>`;
   if (d.link)      html += `<a href="${d.link.href}" target="_blank" rel="noopener" class="view-project-link modal-link">${d.link.label} <span class="external-icon" aria-hidden="true">↗</span></a>`;
   modalDetails.innerHTML = html;
