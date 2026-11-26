@@ -188,16 +188,38 @@ const moreProjects = [
   },
   {
     title: "Blade Comic Cover",
-    description: "A comic book cover illustration inspired by the blood rave scene from the movie BLADE.",
+    description: "Comic book cover painted in Photoshop for my Electronic Imaging class at Valencia College in 2023, inspired by the blood rave scene from the movie BLADE, and reworked in 2026 into a finished, shelf-ready first issue.",
     category: "Illustration",
-    image: "https://cdn.myportfolio.com/3b674604-b9ac-4701-bc24-d881b2abd8fb/7c65051d-09e1-41f3-a825-d267fa8e69aa.jpg?h=184aca06b6d6981bdb97f17b7e714f00",
+    image: "images/blade/cover-magazine-mockup.webp",
+    imageAlt: "The finished Blade comic cover printed on a comic book lying at an angle on a white surface",
     details: {
-      overview: "A dramatic comic book cover illustration inspired by the iconic blood rave scene from the BLADE film, exploring the intersection of cinematic atmosphere and comic book art.",
-      role: "Illustrator & Designer – Conceptualized and executed the complete cover illustration from initial sketches through final digital artwork.",
-      tools: ["Adobe Photoshop", "Adobe Illustrator", "Digital Drawing Tablet"],
-      challenge: "Capture the cinematic intensity and atmospheric darkness of the BLADE universe while creating a compelling comic book cover composition.",
-      solution: "Dynamic angles and dramatic lighting create depth and movement. Bold red and black color scheme evokes the blood rave while maintaining readability.",
-      outcome: "A finished comic cover that carries the look of a film scene into a single printed image. It taught me how much lighting and a limited palette can set the mood of a piece.",
+      overview: "Blade is a comic book cover I painted for Project 02 in my Electronic Imaging class at Valencia College in 2023. The assignment was to design a cover based on a movie and build it in Photoshop with custom brushes, a pattern, masks, adjustment layers and organized layer groups. I chose the blood rave that opens BLADE: Blade in his leather coat at the center, surrounded by fanged ravers dripping blood, under the caption \"When the hunters become the hunted.\" In 2026 I reworked the cover for my portfolio and placed it on a printed comic, a flat cover and a comic shop shelf.",
+      role: "Illustrator & Designer – I researched the film, wrote the project brief, sketched three rough layouts, painted the cover in Photoshop, made my own brushes and pattern, and set the title and cover type. In 2026 I reworked the cover and presented it in mockups.",
+      tools: ["Adobe Photoshop", "Adobe Illustrator"],
+      challenge: "The brief asked for a full cover with a title, extra type, a price and logos, painted in color and made in Photoshop, with Illustrator allowed only for outlines. I had to create and use at least 3 custom brushes and 1 pattern, use at least 2 filters, adjustment layers or layer styles, use layer masks, and name and group every layer. The file had to be 8.25 × 10.75 in with an 8 × 10.5 in trim at 150 dpi, worked in RGB and converted to CMYK at the end.",
+      solution: "I kept the scene gritty and semi-realistic, with no dialogue, so the image tells the story. Blade stands still at the center in gray and black while a crowd of red ravers closes in behind him, and a blood-spattered wall fills the background. My custom blood splatter brushes carry the blood across the whole cover, and the palette stays to red, black and gray so the title and caption read clearly.",
+      processTitle: "From Movie Scene to Comic Shelf",
+      stats: [
+        { value: "10 + 10", label: "comic cover examples and movie screenshots collected" },
+        { value: "3 → 1", label: "rough layouts narrowed to the final cover" },
+        { value: "8 × 10.5 in", label: "trim size at 150 dpi, converted to CMYK" },
+        { value: "2023 → 2026", label: "from class project to portfolio piece" }
+      ],
+      updates: [
+        { title: "Studied the film and real covers", text: "I collected 10 screenshots from BLADE and 10 comic book covers as references. The opening blood rave gave me the scene: a club, a crowd of vampires and blood coming down from the sprinklers." },
+        { title: "Wrote the brief", text: "My brief set the concept: Blade in his leather coat at the center, the ravers around him, a gritty and semi-realistic style, no dialogue, and one caption, \"When the hunters become the hunted,\" to show the role reversal." },
+        { title: "Sketched three layouts", text: "I drew three rough layouts in pencil: Blade standing among the ravers, Blade crouched with his sword inside a ring of attackers, and a close-up of Blade swinging his sword. The first one became the final cover, because his calm stance against the crowd says the most about the story." },
+        { title: "Painted it in Photoshop", text: "I painted the cover on separate, named layers in groups, so every part could be changed without damaging the rest. I made my own blood splatter brushes and a pattern, used layer masks to blend the figures into the background, and finished it with adjustment layers and layer styles." },
+        { title: "Reworked it in 2026", text: "Back in Photoshop, I gave the cover the parts of a real first issue: a new BLADE masthead, glowing red eyes behind his glasses, a Marvel 50 Years corner badge, a First Issue seal, and a price and UPC box." },
+        { title: "Put it in the real world", text: "I placed the finished cover on a printed comic, on a flat cover and on a comic shop shelf with a New This Week tag, to see how it reads in a hand and from across a store." }
+      ],
+      gallery: [
+        { src: "images/blade/flat-cover.webp", alt: "The finished 2026 Blade cover laid flat on a dark surface: Blade in a long black leather coat stands in front of a crowd of red vampire ravers, under a pink and red BLADE masthead, with a Marvel 50 Years badge, a First Issue seal, the caption When the Hunters Become the Hunted and a UPC box", caption: "The finished cover." },
+        { src: "images/blade/shelf-mockup.webp", alt: "The Blade cover on the middle shelf of a comic shop wall, between other comics, with a red New This Week tag below it", caption: "On a comic shop shelf." },
+        { src: "images/blade/before-after.webp", alt: "Two versions of the Blade cover side by side: on the left, the 2023 version with Blade in a brown coat on a red and gray spattered wall under a pink BLADE title; on the right, the 2026 version with a black coat, a crowd of red ravers, a new masthead, badges, a caption and a UPC box", caption: "Left: the cover in 2023. Right: the 2026 rework." },
+        { src: "images/blade/sketches.webp", alt: "Three pencil rough layouts for the cover: Blade standing among female vampire ravers, Blade crouched with a sword inside a ring of attackers, and a close-up of Blade swinging his sword", caption: "My three rough layouts. The first one became the final cover.", size: "small" }
+      ],
+      outcome: "A class assignment became a cover that looks ready for a comic shop shelf. My instructor, Michael Maguire, graded it with \"Excellent work, Fredy. Portfolio worthy!\" Painting it taught me to work in layers and masks instead of on one flat image, and reworking it later showed me how much the cover type and details make a painting read as a real comic.",
     }
   },
   {
@@ -456,10 +478,6 @@ Object.assign(enToEs, {
   "Developed a vibrant color palette and dynamic composition style featuring the main characters in engaging scenarios. Used bold typography and energetic layouts to convey the film's comedic nature.": 'Desarrollé una paleta vibrante y un estilo de composición dinámico con los personajes principales en escenarios llamativos. Usé tipografía audaz y layouts enérgicos para comunicar el carácter cómico de la película.',
   'The campaign successfully generated buzz across social media platforms and contributed to strong opening weekend attendance.': 'La campaña generó conversación en redes sociales y contribuyó a una asistencia sólida durante el fin de semana de estreno.',
   'Designed an immersive scrolling experience with rich photography, cultural narratives, and a warm earthy color palette inspired by coffee and Salvadoran landscapes.': 'Diseñé una experiencia inmersiva con fotografía rica, narrativa cultural y una paleta cálida inspirada en el café y los paisajes salvadoreños.',
-  'A dramatic comic book cover illustration inspired by the iconic blood rave scene from the BLADE film, exploring the intersection of cinematic atmosphere and comic book art.': 'Una portada dramática de cómic inspirada en la escena icónica del blood rave de BLADE, explorando la intersección entre atmósfera cinematográfica y arte de cómic.',
-  'Illustrator & Designer – Conceptualized and executed the complete cover illustration from initial sketches through final digital artwork.': 'Ilustrador y diseñador: conceptualicé y ejecuté la ilustración completa de la portada desde bocetos iniciales hasta arte digital final.',
-  'Capture the cinematic intensity and atmospheric darkness of the BLADE universe while creating a compelling comic book cover composition.': 'Capturar la intensidad cinematográfica y la oscuridad atmosférica del universo BLADE mientras se crea una composición potente de portada de cómic.',
-  'Dynamic angles and dramatic lighting create depth and movement. Bold red and black color scheme evokes the blood rave while maintaining readability.': 'Ángulos dinámicos e iluminación dramática crean profundidad y movimiento. La paleta roja y negra evoca el blood rave sin perder legibilidad.',
 });
 
 Object.assign(enToEs, {
@@ -603,7 +621,6 @@ Object.assign(enToEs, {
 });
 
 Object.assign(enToEs, {
-  'A comic book cover illustration inspired by the blood rave scene from the movie BLADE.': 'Ilustración de portada de cómic inspirada en la escena del blood rave de la película BLADE.',
   'Cereal box design celebrating Latino heritage with pastel colors, playful patterns and a cow mascot.': 'Diseño de caja de cereal que celebra la herencia latina con colores pastel, patrones juguetones y una mascota de vaca.',
   'Convey Italian culinary tradition and an upscale dining experience in a way that feels distinct from other Italian restaurants.': 'Transmitir la tradición culinaria italiana y una experiencia gastronómica de alto nivel de una forma que se distinga de otros restaurantes italianos.',
   'A finished comic cover that carries the look of a film scene into a single printed image. It taught me how much lighting and a limited palette can set the mood of a piece.': 'Una portada de cómic terminada que lleva el estilo de una escena de cine a una sola imagen impresa. Me enseñó cuánto pueden definir el ambiente de una pieza la iluminación y una paleta limitada.',
@@ -679,6 +696,36 @@ Object.assign(enToEs, {
   "The finished poster in a Coming Soon frame.": "El póster terminado en un marco de Coming Soon.",
   "The 15 thumbnail sketches and the 5 refined layouts that led to the final poster.": "Los 15 bocetos en miniatura y los 5 diseños refinados que llevaron al póster final.",
   "A 2024 class assignment became a small campaign that shows one illustration working at every size, from a poster to a billboard to an 8 ft standee. Coming back to it two years later showed me how much color alone can change a finished piece, and building the standee made me think of the artwork in layers instead of as one flat image.": "Una tarea de clase de 2024 se convirtió en una pequeña campaña que muestra una ilustración funcionando en todos los tamaños, del póster a la valla y a un standee de 8 pies. Volver a ella dos años después me mostró cuánto puede cambiar una pieza terminada solo con el color, y crear el standee me hizo pensar la ilustración en capas en vez de como una imagen plana."
+});
+
+Object.assign(enToEs, {
+  "Comic book cover painted in Photoshop for my Electronic Imaging class at Valencia College in 2023, inspired by the blood rave scene from the movie BLADE, and reworked in 2026 into a finished, shelf-ready first issue.": "Portada de cómic pintada en Photoshop para mi clase de Electronic Imaging en Valencia College en 2023, inspirada en la escena del blood rave de la película BLADE, y retrabajada en 2026 como un primer número terminado y listo para el estante.",
+  "Blade is a comic book cover I painted for Project 02 in my Electronic Imaging class at Valencia College in 2023. The assignment was to design a cover based on a movie and build it in Photoshop with custom brushes, a pattern, masks, adjustment layers and organized layer groups. I chose the blood rave that opens BLADE: Blade in his leather coat at the center, surrounded by fanged ravers dripping blood, under the caption \"When the hunters become the hunted.\" In 2026 I reworked the cover for my portfolio and placed it on a printed comic, a flat cover and a comic shop shelf.": "Blade es una portada de cómic que pinté para el Proyecto 02 de mi clase de Electronic Imaging en Valencia College en 2023. La tarea era diseñar una portada basada en una película y crearla en Photoshop con pinceles propios, un patrón, máscaras, capas de ajuste y grupos de capas organizados. Elegí el blood rave con el que empieza BLADE: Blade con su abrigo de cuero en el centro, rodeado de ravers con colmillos que gotean sangre, bajo la frase \"When the hunters become the hunted\" (cuando los cazadores se vuelven la presa). En 2026 retrabajé la portada para mi portafolio y la coloqué en un cómic impreso, en una portada plana y en el estante de una tienda de cómics.",
+  "Illustrator & Designer – I researched the film, wrote the project brief, sketched three rough layouts, painted the cover in Photoshop, made my own brushes and pattern, and set the title and cover type. In 2026 I reworked the cover and presented it in mockups.": "Ilustrador y diseñador: investigué la película, escribí el brief del proyecto, dibujé tres bocetos, pinté la portada en Photoshop, creé mis propios pinceles y patrón, y compuse el título y los textos de la portada. En 2026 retrabajé la portada y la presenté en mockups.",
+  "The brief asked for a full cover with a title, extra type, a price and logos, painted in color and made in Photoshop, with Illustrator allowed only for outlines. I had to create and use at least 3 custom brushes and 1 pattern, use at least 2 filters, adjustment layers or layer styles, use layer masks, and name and group every layer. The file had to be 8.25 × 10.75 in with an 8 × 10.5 in trim at 150 dpi, worked in RGB and converted to CMYK at the end.": "El brief pedía una portada completa con título, textos adicionales, precio y logos, pintada a color y hecha en Photoshop, con Illustrator permitido solo para los contornos. Tenía que crear y usar al menos 3 pinceles propios y 1 patrón, usar al menos 2 filtros, capas de ajuste o estilos de capa, usar máscaras de capa, y nombrar y agrupar todas las capas. El archivo debía medir 8.25 × 10.75 in con un corte de 8 × 10.5 in a 150 dpi, trabajado en RGB y convertido a CMYK al final.",
+  "I kept the scene gritty and semi-realistic, with no dialogue, so the image tells the story. Blade stands still at the center in gray and black while a crowd of red ravers closes in behind him, and a blood-spattered wall fills the background. My custom blood splatter brushes carry the blood across the whole cover, and the palette stays to red, black and gray so the title and caption read clearly.": "Mantuve la escena cruda y semirrealista, sin diálogo, para que la imagen cuente la historia. Blade está quieto en el centro, en gris y negro, mientras una multitud de ravers en rojo se le acerca por detrás y una pared salpicada de sangre llena el fondo. Mis pinceles de salpicaduras de sangre llevan la sangre por toda la portada, y la paleta se queda en rojo, negro y gris para que el título y la frase se lean con claridad.",
+  "From Movie Scene to Comic Shelf": "De la escena de la película al estante de cómics",
+  "comic cover examples and movie screenshots collected": "portadas de cómic y capturas de la película reunidas",
+  "rough layouts narrowed to the final cover": "bocetos reducidos a la portada final",
+  "trim size at 150 dpi, converted to CMYK": "tamaño de corte a 150 dpi, convertido a CMYK",
+  "from class project to portfolio piece": "de proyecto de clase a pieza de portafolio",
+  "Studied the film and real covers": "Estudié la película y portadas reales",
+  "I collected 10 screenshots from BLADE and 10 comic book covers as references. The opening blood rave gave me the scene: a club, a crowd of vampires and blood coming down from the sprinklers.": "Reuní 10 capturas de BLADE y 10 portadas de cómic como referencia. El blood rave del inicio me dio la escena: un club, una multitud de vampiros y sangre cayendo de los rociadores.",
+  "Wrote the brief": "Escribí el brief",
+  "My brief set the concept: Blade in his leather coat at the center, the ravers around him, a gritty and semi-realistic style, no dialogue, and one caption, \"When the hunters become the hunted,\" to show the role reversal.": "Mi brief definió el concepto: Blade con su abrigo de cuero en el centro, los ravers a su alrededor, un estilo crudo y semirrealista, sin diálogo, y una sola frase, \"When the hunters become the hunted\", para mostrar el cambio de papeles.",
+  "Sketched three layouts": "Dibujé tres bocetos",
+  "I drew three rough layouts in pencil: Blade standing among the ravers, Blade crouched with his sword inside a ring of attackers, and a close-up of Blade swinging his sword. The first one became the final cover, because his calm stance against the crowd says the most about the story.": "Dibujé tres bocetos a lápiz: Blade de pie entre los ravers, Blade agachado con su espada dentro de un círculo de atacantes, y un primer plano de Blade blandiendo la espada. El primero se convirtió en la portada final, porque su postura tranquila frente a la multitud es la que más dice de la historia.",
+  "Painted it in Photoshop": "La pinté en Photoshop",
+  "I painted the cover on separate, named layers in groups, so every part could be changed without damaging the rest. I made my own blood splatter brushes and a pattern, used layer masks to blend the figures into the background, and finished it with adjustment layers and layer styles.": "Pinté la portada en capas separadas, con nombre y en grupos, para poder cambiar cada parte sin dañar el resto. Creé mis propios pinceles de salpicaduras de sangre y un patrón, usé máscaras de capa para integrar las figuras con el fondo, y la terminé con capas de ajuste y estilos de capa.",
+  "Reworked it in 2026": "La retrabajé en 2026",
+  "Back in Photoshop, I gave the cover the parts of a real first issue: a new BLADE masthead, glowing red eyes behind his glasses, a Marvel 50 Years corner badge, a First Issue seal, and a price and UPC box.": "De vuelta en Photoshop, le di a la portada las partes de un primer número real: un nuevo logotipo de BLADE, ojos rojos que brillan detrás de sus lentes, una insignia de Marvel 50 Years en la esquina, un sello de First Issue y un recuadro con el precio y el código UPC.",
+  "Put it in the real world": "La llevé al mundo real",
+  "I placed the finished cover on a printed comic, on a flat cover and on a comic shop shelf with a New This Week tag, to see how it reads in a hand and from across a store.": "Coloqué la portada terminada en un cómic impreso, en una portada plana y en el estante de una tienda de cómics con una etiqueta de New This Week, para ver cómo se lee en la mano y desde el otro lado de la tienda.",
+  "The finished cover.": "La portada terminada.",
+  "On a comic shop shelf.": "En el estante de una tienda de cómics.",
+  "Left: the cover in 2023. Right: the 2026 rework.": "Izquierda: la portada en 2023. Derecha: la versión retrabajada en 2026.",
+  "My three rough layouts. The first one became the final cover.": "Mis tres bocetos. El primero se convirtió en la portada final.",
+  "A class assignment became a cover that looks ready for a comic shop shelf. My instructor, Michael Maguire, graded it with \"Excellent work, Fredy. Portfolio worthy!\" Painting it taught me to work in layers and masks instead of on one flat image, and reworking it later showed me how much the cover type and details make a painting read as a real comic.": "Una tarea de clase se convirtió en una portada que parece lista para el estante de una tienda de cómics. Mi instructor, Michael Maguire, la calificó con \"Excellent work, Fredy. Portfolio worthy!\" (Excelente trabajo, Fredy. ¡Digna de portafolio!). Pintarla me enseñó a trabajar con capas y máscaras en lugar de una sola imagen plana, y retrabajarla después me mostró cuánto hacen los textos y detalles de la portada para que una pintura se lea como un cómic real."
 });
 
 const esToEn = Object.fromEntries(Object.entries(enToEs).map(([en, es]) => [es, en]));
@@ -847,7 +894,7 @@ function renderSlider() {
   slider.innerHTML = moreProjects.map((p, i) => `
     <div class="slider-card" data-index="${i}" role="button" tabindex="0" aria-label="${p.title}">
       <div class="slider-card-image">
-        <img src="${p.image}" alt="${p.title}" loading="lazy">
+        <img src="${p.image}" alt="${p.imageAlt || p.title}" loading="lazy">
         <span class="slider-card-category">${p.category}</span>
       </div>
       <div class="slider-card-info">
@@ -899,7 +946,7 @@ const modalDetails  = qs('#modal-details');
 
 function openProjectModal(project) {
   modalImage.src     = project.image;
-  modalImage.alt     = project.title;
+  modalImage.alt     = project.imageAlt || project.title;
   modalCategory.textContent = project.category;
   modalTitle.textContent    = project.title;
   modalDesc.textContent     = project.description;
